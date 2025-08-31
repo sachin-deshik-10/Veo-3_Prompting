@@ -1,0 +1,200 @@
+{
+  "metadata": {
+    "title": "Veo 3 Prompt Usage Examples",
+    "version": "1.0.0",
+    "created_by": "N.Sachin Deshik",
+    "created_date": "2025-08-31T00:00:00Z",
+    "last_updated": "2025-08-31T00:33:00Z",
+    "description": "Real-world examples demonstrating how to combine and use JSON prompt templates",
+    "purpose": "Practical implementation guide for professional video creation"
+  },
+  "complete_production_examples": [
+    {
+      "project_name": "Corporate CEO Interview",
+      "timestamp": "2025-08-31T00:33:00Z",
+      "scenario": "Professional interview setup for corporate communications",
+      "combined_prompts": {
+        "cinematography": {
+          "source": "cinematography/professional_shots.json - cine_002",
+          "customized_prompt": "Medium close-up of confident CEO in modern office, professional demeanor, straight-on camera angle, soft executive lighting, blurred high-tech office background, 4K resolution, shallow depth of field, professional color correction, 85mm lens equivalent, f/2.8 aperture, steady focus"
+        },
+        "lighting": {
+          "source": "lighting/professional_setups.json - light_001", 
+          "customized_prompt": "Three-point lighting setup, 45-degree left key light, soft fill light, subtle rim light, balanced exposure, controlled shadows, professional contrast ratio, corporate interview setting, confident professional mood"
+        },
+        "audio": {
+          "source": "audio/advanced_integration.json - audio_001",
+          "customized_prompt": "Natural dialogue: 'Our company's innovation in sustainable technology positions us as leaders in the renewable energy sector', authoritative delivery style, confident emotional context, broadcast audio quality, clear articulation, natural rhythm, emotional authenticity, lip sync accuracy"
+        },
+        "technical_specs": {
+          "source": "technical_specs/quality_and_formats.json - tech_001",
+          "customized_prompt": "4K UHD resolution, 16:9 aspect ratio, 30 fps professional frame rate, 10-bit color depth, professional broadcast standards, appropriate for corporate streaming platform delivery"
+        }
+      },
+      "final_combined_prompt": "Medium close-up of confident CEO in modern office, professional demeanor, straight-on camera angle, soft executive lighting, blurred high-tech office background, 4K UHD resolution, 16:9 aspect ratio, 30 fps professional frame rate, 10-bit color depth, shallow depth of field, professional color correction, 85mm lens equivalent, f/2.8 aperture, steady focus, three-point lighting setup, 45-degree left key light, soft fill light, subtle rim light, balanced exposure, controlled shadows, professional contrast ratio, natural dialogue: 'Our company's innovation in sustainable technology positions us as leaders in the renewable energy sector', authoritative delivery style, confident emotional context, broadcast audio quality, clear articulation, natural rhythm, emotional authenticity, lip sync accuracy, professional broadcast standards, corporate streaming optimization",
+      "expected_outcome": "Professional, broadcast-quality CEO interview suitable for corporate communications and investor relations"
+    },
+    {
+      "project_name": "Product Launch Cinematic",
+      "timestamp": "2025-08-31T00:34:00Z",
+      "scenario": "High-end product reveal with dramatic cinematography",
+      "combined_prompts": {
+        "cinematography": {
+          "source": "cinematography/professional_shots.json - cine_001",
+          "customized_prompt": "Master wide shot of sleek modern product display in minimalist studio environment, establishing shot, low angle camera, dramatic lighting, premium luxury mood, 8K resolution, cinematic aspect ratio 2.35:1, professional color grading, wide angle lens, deep depth of field, stable camera work"
+        },
+        "camera_movement": {
+          "source": "camera_movements/advanced_movements.json - cam_003",
+          "customized_prompt": "360-degree orbit around luxury technology product, medium radius, slow speed, maintaining focus on product features, consistent distance, smooth rotation, stable horizon"
+        },
+        "lighting": {
+          "source": "lighting/professional_setups.json - light_003",
+          "customized_prompt": "Dramatic chiaroscuro lighting, single hard light from upper left, deep shadows, bright selective highlights on product surfaces, high contrast ratio, selective illumination, artistic shadow play, premium product atmosphere"
+        },
+        "visual_effects": {
+          "source": "visual_effects/advanced_vfx.json - vfx_005",
+          "customized_prompt": "Light beam effect: dramatic spotlight cones, medium intensity level, subtle atmospheric interaction, motivated studio lighting source, volumetric rendering, realistic light scattering, motivated light sources, premium reveal atmosphere"
+        },
+        "style": {
+          "source": "styles_genres/cinematic_styles.json - style_005",
+          "customized_prompt": "High fashion style, perfect studio lighting perfection, luxury minimal aesthetic elements, sophisticated monochrome with product color accents, flawless lighting, high-end color grading, perfect composition, premium product showcase"
+        }
+      },
+      "final_combined_prompt": "Master wide shot transitioning to 360-degree orbit around luxury technology product in minimalist studio environment, establishing shot progressing to medium radius orbit, low angle camera maintaining focus on product features, dramatic chiaroscuro lighting with single hard light from upper left, deep shadows with bright selective highlights on product surfaces, 8K resolution, cinematic aspect ratio 2.35:1, high fashion style presentation, perfect studio lighting, luxury minimal aesthetic, sophisticated monochrome with selective product color accents, dramatic spotlight cones with medium intensity, volumetric light beams, realistic light scattering, slow smooth rotation maintaining consistent distance, stable horizon, professional color grading, flawless composition, premium reveal atmosphere",
+      "expected_outcome": "Cinematic, high-end product reveal suitable for luxury brand marketing and premium product launches"
+    },
+    {
+      "project_name": "Documentary Interview Scene",
+      "timestamp": "2025-08-31T00:35:00Z",
+      "scenario": "Authentic documentary-style interview with natural environment",
+      "combined_prompts": {
+        "cinematography": {
+          "source": "cinematography/professional_shots.json - cine_002",
+          "customized_prompt": "Medium close-up of thoughtful interviewee in natural environment, contemplative expression, slight off-center camera angle, natural window lighting, authentic background elements visible, 4K resolution, moderate depth of field, natural color correction, 50mm lens equivalent, documentary framing, organic composition"
+        },
+        "lighting": {
+          "source": "lighting/professional_setups.json - light_002",
+          "customized_prompt": "Golden hour lighting streaming through large window, warm 3200K color temperature, soft gradient shadows across face, soft directional light, warm color cast, natural gradient shadows, authentic interior documentary setting"
+        },
+        "audio": {
+          "source": "audio/advanced_integration.json - audio_002",
+          "customized_prompt": "Ambient sound design: quiet residential interior, subtle environmental sounds, peaceful audio mood, low volume levels, layered soundscape with distant traffic, birds outside window, realistic environmental audio, spatial awareness"
+        },
+        "style": {
+          "source": "styles_genres/cinematic_styles.json - style_003",
+          "customized_prompt": "Documentary realism style, available natural lighting, subtle handheld camera movement, authentic home environment, natural color grading, minimal post-production enhancement, genuine interaction feel, observational approach"
+        },
+        "camera_movement": {
+          "source": "camera_movements/advanced_movements.json - cam_004",
+          "customized_prompt": "Gentle push-in focus pull during emotional moment, wide distance to close-up, gradual focus transition from environment to subject's eyes, smooth approach, precise focus timing, emotional build-up matching narrative peak"
+        }
+      },
+      "final_combined_prompt": "Medium close-up of thoughtful interviewee in authentic home environment, contemplative expression, slight off-center documentary framing, gentle push-in focus pull during emotional moment transitioning from environment to subject's eyes, golden hour lighting streaming through large window, warm 3200K color temperature, soft gradient shadows across face, documentary realism style, available natural lighting, subtle handheld camera movement, natural color grading, 4K resolution, moderate depth of field, 50mm lens equivalent, ambient sound design with quiet residential interior, subtle environmental sounds, layered soundscape with distant traffic and birds, peaceful audio mood, low volume levels, smooth approach with precise focus timing, emotional build-up, organic composition, authentic documentary feel",
+      "expected_outcome": "Authentic, emotionally engaging documentary interview with natural cinematography and immersive environmental audio"
+    }
+  ],
+  "quick_combination_templates": {
+    "social_media_vertical": {
+      "base_elements": [
+        "9:16 aspect ratio from technical_specs",
+        "Medium close-up from cinematography", 
+        "Soft beauty lighting from lighting",
+        "Natural dialogue from audio"
+      ],
+      "template": "{cinematography_shot} + {lighting_setup} + 1080p/9:16/30fps + {audio_type}",
+      "use_cases": ["Instagram Reels", "TikTok content", "YouTube Shorts"]
+    },
+    "cinematic_sequence": {
+      "base_elements": [
+        "Master wide establishing shot",
+        "Camera movement transition",
+        "Dramatic lighting change", 
+        "Musical score integration"
+      ],
+      "template": "{establishing_shot} → {camera_movement} + {lighting_transition} + {music_score}",
+      "use_cases": ["Film sequences", "Music videos", "Dramatic reveals"]
+    },
+    "product_showcase": {
+      "base_elements": [
+        "360-degree orbit movement",
+        "High fashion lighting",
+        "Technical specifications for platform",
+        "Optional visual effects enhancement"
+      ],
+      "template": "{orbit_movement} + {premium_lighting} + {platform_specs} + {optional_vfx}",
+      "use_cases": ["E-commerce videos", "Product launches", "Brand showcases"]
+    }
+  },
+  "customization_workflows": {
+    "parameter_replacement_guide": {
+      "step_1": "Select base prompt template from appropriate category",
+      "step_2": "Identify {variable} placeholders in prompt structure",
+      "step_3": "Replace with project-specific content",
+      "step_4": "Combine with prompts from other categories",
+      "step_5": "Add technical specifications for delivery platform",
+      "step_6": "Test and refine for optimal results"
+    },
+    "variable_examples": {
+      "{subject}": ["person", "product", "environment", "character"],
+      "{environment}": ["office", "studio", "outdoor", "interior"],
+      "{lighting}": ["natural", "dramatic", "soft", "hard"],
+      "{mood}": ["professional", "dramatic", "casual", "mysterious"],
+      "{camera_angle}": ["low angle", "high angle", "eye level", "dutch angle"],
+      "{color_palette}": ["natural", "monochrome", "warm", "cool", "saturated"]
+    }
+  },
+  "troubleshooting_common_issues": {
+    "prompt_too_complex": {
+      "problem": "Generated video doesn't match overly complex combined prompt",
+      "solution": "Simplify by focusing on 2-3 key elements, test incrementally",
+      "example": "Start with cinematography + lighting, then add audio separately"
+    },
+    "inconsistent_results": {
+      "problem": "Results vary significantly between generations",
+      "solution": "Use more specific technical parameters and consistent terminology",
+      "example": "Always specify exact resolution, fps, and color space"
+    },
+    "poor_audio_sync": {
+      "problem": "Dialogue doesn't sync properly with visuals",
+      "solution": "Specify lip sync requirements explicitly in audio prompts",
+      "example": "Add 'precise lip sync accuracy' to all dialogue prompts"
+    }
+  },
+  "advanced_techniques": {
+    "prompt_layering": {
+      "description": "Build complex scenes by layering multiple prompt elements",
+      "methodology": "Base layer (cinematography) → Enhancement layer (lighting) → Effect layer (VFX) → Audio layer",
+      "example": "Master shot + three-point lighting + particle effects + ambient audio"
+    },
+    "sequential_prompting": {
+      "description": "Create video sequences by chaining related prompts",
+      "methodology": "Maintain consistent elements while progressing narrative",
+      "example": "Wide shot → Medium shot → Close-up with consistent lighting and style"
+    },
+    "platform_optimization": {
+      "description": "Adapt prompt combinations for specific delivery platforms",
+      "methodology": "Adjust technical specs while maintaining creative intent",
+      "example": "4K/16:9 for YouTube → 1080p/9:16 for Instagram Stories"
+    }
+  },
+  "best_practices_summary": {
+    "always_include": [
+      "Technical specifications appropriate for delivery platform",
+      "Specific lighting setup for professional quality",
+      "Audio specifications for immersive experience",
+      "Clear cinematography direction for consistent framing"
+    ],
+    "avoid": [
+      "Conflicting style elements from different genres",
+      "Overly complex prompts combining too many effects",
+      "Missing technical specifications leading to quality issues",
+      "Vague descriptors that lack specificity"
+    ],
+    "optimize_for": [
+      "Consistency across related video segments",
+      "Platform-specific technical requirements", 
+      "Brand alignment and aesthetic coherence",
+      "Audience engagement and viewing experience"
+    ]
+  }
+}
