@@ -1,0 +1,173 @@
+{
+  "metadata": {
+    "title": "Advanced Camera Movements - Veo 3 Prompts",
+    "version": "1.0.0",
+    "created_by": "N.Sachin Deshik",
+    "created_date": "2025-08-31T00:00:00Z",
+    "last_updated": "2025-08-31T00:00:00Z",
+    "category": "camera_movements",
+    "subcategory": "professional_movements",
+    "description": "Professional camera movement techniques for dynamic Veo 3 video generation"
+  },
+  "prompt_templates": [
+    {
+      "id": "cam_001",
+      "name": "Smooth Dolly Track",
+      "timestamp": "2025-08-31T00:04:00Z",
+      "description": "Horizontal camera movement parallel to subject, creates professional cinematic feel",
+      "prompt_structure": {
+        "base_prompt": "Smooth dolly track {direction} following {subject}, {speed}, {distance}, {focus_technique}",
+        "technical_specs": "Stabilized movement, consistent speed, professional tracking",
+        "movement_parameters": "Speed: slow/medium/fast, Distance: close/medium/wide, Direction: left/right/forward/back"
+      },
+      "examples": [
+        {
+          "prompt": "Smooth dolly track left following a cyclist through city streets, medium speed, medium distance, rack focus from background to subject, stabilized movement, consistent speed, professional tracking",
+          "use_case": "Urban lifestyle video",
+          "expected_result": "Dynamic following shot with professional feel"
+        },
+        {
+          "prompt": "Smooth dolly track forward approaching a chef plating food, slow speed, close distance, maintaining sharp focus on hands, stabilized movement, consistent speed, professional tracking",
+          "use_case": "Culinary content",
+          "expected_result": "Intimate approach shot building tension"
+        }
+      ],
+      "best_practices": [
+        "Maintain consistent speed throughout movement",
+        "Use rack focus for dramatic effect",
+        "Ensure smooth start and end points",
+        "Consider subject's movement direction"
+      ],
+      "common_mistakes": [
+        "Jerky or inconsistent movement",
+        "Too fast speed losing cinematic quality",
+        "Poor timing with subject action"
+      ]
+    },
+    {
+      "id": "cam_002",
+      "name": "Cinematic Crane Shot",
+      "timestamp": "2025-08-31T00:05:00Z",
+      "description": "Vertical camera movement revealing or concealing scene elements",
+      "prompt_structure": {
+        "base_prompt": "Cinematic crane shot {direction}, revealing {scene_element}, {arc_movement}, {speed}",
+        "technical_specs": "Smooth vertical movement, controlled arc, dramatic reveal",
+        "movement_parameters": "Direction: rising/descending, Arc: straight/curved, Speed: slow/medium for drama"
+      },
+      "examples": [
+        {
+          "prompt": "Cinematic crane shot rising, revealing sprawling cityscape from rooftop perspective, curved arc movement, slow speed, smooth vertical movement, controlled arc, dramatic reveal",
+          "use_case": "Establishing shot transition",
+          "expected_result": "Epic reveal of urban landscape"
+        },
+        {
+          "prompt": "Cinematic crane shot descending, revealing secret garden through tree canopy, straight arc movement, medium speed, smooth vertical movement, controlled arc, dramatic reveal",
+          "use_case": "Fantasy/nature documentary",
+          "expected_result": "Magical discovery sequence"
+        }
+      ],
+      "best_practices": [
+        "Use for dramatic reveals or conclusions",
+        "Maintain smooth arc throughout movement",
+        "Time reveals with narrative beats",
+        "Consider lighting changes during movement"
+      ],
+      "common_mistakes": [
+        "Too rapid movement losing impact",
+        "Poor framing at start or end points",
+        "Inconsistent movement speed"
+      ]
+    },
+    {
+      "id": "cam_003",
+      "name": "360-Degree Orbit",
+      "timestamp": "2025-08-31T00:06:00Z",
+      "description": "Camera revolves around subject maintaining focus, creates dynamic showcase effect",
+      "prompt_structure": {
+        "base_prompt": "360-degree orbit around {subject}, {radius}, {speed}, maintaining {focus_point}",
+        "technical_specs": "Consistent distance, smooth rotation, stable horizon",
+        "movement_parameters": "Radius: tight/medium/wide, Speed: slow/medium, Focus: center subject"
+      },
+      "examples": [
+        {
+          "prompt": "360-degree orbit around luxury sports car, medium radius, slow speed, maintaining focus on vehicle profile, consistent distance, smooth rotation, stable horizon",
+          "use_case": "Product showcase",
+          "expected_result": "Complete product view with dramatic flair"
+        },
+        {
+          "prompt": "360-degree orbit around dancing couple in ballroom, wide radius, medium speed, maintaining focus on dancers, consistent distance, smooth rotation, stable horizon",
+          "use_case": "Wedding/event video",
+          "expected_result": "Elegant showcase of performance"
+        }
+      ],
+      "best_practices": [
+        "Maintain consistent distance from subject",
+        "Keep horizon level throughout rotation",
+        "Use for product or performance showcases",
+        "Consider lighting consistency around orbit"
+      ],
+      "common_mistakes": [
+        "Varying distance creating wobble effect",
+        "Too fast speed causing motion sickness",
+        "Poor focus tracking during rotation"
+      ]
+    },
+    {
+      "id": "cam_004",
+      "name": "Push-In Focus Pull",
+      "timestamp": "2025-08-31T00:07:00Z",
+      "description": "Camera moves toward subject while adjusting focus for dramatic emphasis",
+      "prompt_structure": {
+        "base_prompt": "Push-in focus pull toward {subject}, {start_distance} to {end_distance}, {focus_transition}",
+        "technical_specs": "Smooth approach, precise focus timing, emotional build-up",
+        "movement_parameters": "Start: wide/medium, End: close/extreme close, Transition: gradual/snap"
+      },
+      "examples": [
+        {
+          "prompt": "Push-in focus pull toward actor's emotional reaction, medium distance to extreme close-up, gradual focus transition, smooth approach, precise focus timing, emotional build-up",
+          "use_case": "Dramatic scene climax",
+          "expected_result": "Intensifying emotional moment"
+        },
+        {
+          "prompt": "Push-in focus pull toward product detail, wide distance to macro close-up, snap focus transition, smooth approach, precise focus timing, emotional build-up",
+          "use_case": "Product reveal",
+          "expected_result": "Detailed product focus moment"
+        }
+      ],
+      "best_practices": [
+        "Time focus pull with narrative peak",
+        "Use smooth, consistent movement speed",
+        "Ensure sharp focus at end point",
+        "Consider emotional impact timing"
+      ],
+      "common_mistakes": [
+        "Poor focus timing missing dramatic moment",
+        "Jerky movement breaking immersion",
+        "Inappropriate speed for scene context"
+      ]
+    }
+  ],
+  "technical_guidelines": {
+    "movement_speeds": {
+      "slow": "1-2 seconds per major movement",
+      "medium": "0.5-1 second per movement",
+      "fast": "0.25-0.5 seconds (use sparingly)"
+    },
+    "stabilization_notes": "Always specify stabilized movement for professional quality",
+    "focus_techniques": {
+      "rack_focus": "Shift focus between foreground/background elements",
+      "follow_focus": "Maintain focus on moving subject",
+      "snap_focus": "Quick focus change for dramatic effect"
+    }
+  },
+  "combination_suggestions": {
+    "movement_plus_lighting": "Combine with motivated lighting changes",
+    "movement_plus_audio": "Sync with audio cues or musical beats",
+    "sequential_movements": "Chain movements for complex sequences"
+  },
+  "usage_notes": {
+    "narrative_integration": "Choose movements that support story beats",
+    "technical_limitations": "Consider Veo 3's movement capabilities",
+    "post_production": "Plan for color correction and stabilization needs"
+  }
+}

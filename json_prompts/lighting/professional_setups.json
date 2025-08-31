@@ -1,0 +1,213 @@
+{
+  "metadata": {
+    "title": "Professional Lighting Setups - Veo 3 Prompts",
+    "version": "1.0.0",
+    "created_by": "N.Sachin Deshik",
+    "created_date": "2025-08-31T00:00:00Z",
+    "last_updated": "2025-08-31T00:00:00Z",
+    "category": "lighting",
+    "subcategory": "professional_setups",
+    "description": "Professional lighting techniques and setups for cinematic Veo 3 video generation"
+  },
+  "prompt_templates": [
+    {
+      "id": "light_001",
+      "name": "Three-Point Lighting Classic",
+      "timestamp": "2025-08-31T00:08:00Z",
+      "description": "Standard professional lighting setup with key, fill, and rim lights",
+      "prompt_structure": {
+        "base_prompt": "Three-point lighting setup, {key_light_position} key light, {fill_light_intensity} fill light, {rim_light_color} rim light",
+        "technical_specs": "Balanced exposure, controlled shadows, professional contrast ratio",
+        "lighting_parameters": "Key: 45-degree angle, Fill: opposite side soft, Rim: back separation"
+      },
+      "examples": [
+        {
+          "prompt": "Three-point lighting setup, 45-degree left key light, soft fill light, warm rim light, balanced exposure, controlled shadows, professional contrast ratio, interview setting, corporate professional mood",
+          "use_case": "Corporate interview",
+          "expected_result": "Professional, well-lit talking head"
+        },
+        {
+          "prompt": "Three-point lighting setup, dramatic high key light, minimal fill light, blue rim light, balanced exposure, controlled shadows, professional contrast ratio, creative portrait session, artistic mood",
+          "use_case": "Creative portrait",
+          "expected_result": "Artistic portrait with depth and dimension"
+        }
+      ],
+      "best_practices": [
+        "Position key light at 45-degree angle from subject",
+        "Use fill light to control shadow depth",
+        "Add rim light for subject separation",
+        "Maintain consistent color temperature"
+      ],
+      "common_mistakes": [
+        "Overpowering fill light flattening image",
+        "Missing rim light losing subject separation",
+        "Poor key light angle creating unflattering shadows"
+      ]
+    },
+    {
+      "id": "light_002",
+      "name": "Golden Hour Natural",
+      "timestamp": "2025-08-31T00:09:00Z",
+      "description": "Warm, soft natural lighting during the golden hour period",
+      "prompt_structure": {
+        "base_prompt": "Golden hour lighting, {sun_position}, warm {color_temperature}K, {shadow_quality}",
+        "technical_specs": "Soft directional light, warm color cast, natural gradient shadows",
+        "time_parameters": "Early morning or late afternoon, low sun angle, warm tones"
+      },
+      "examples": [
+        {
+          "prompt": "Golden hour lighting, low sun behind subject, warm 3200K color temperature, soft gradient shadows, soft directional light, warm color cast, natural gradient shadows, outdoor portrait session",
+          "use_case": "Outdoor portrait/lifestyle",
+          "expected_result": "Warm, cinematic natural lighting"
+        },
+        {
+          "prompt": "Golden hour lighting, side-lit through window, warm 2800K color temperature, gentle directional shadows, soft directional light, warm color cast, natural gradient shadows, indoor scene",
+          "use_case": "Interior scene with window light",
+          "expected_result": "Natural interior ambiance"
+        }
+      ],
+      "best_practices": [
+        "Shoot during actual golden hour for authenticity",
+        "Use warm color temperatures (2800-3200K)",
+        "Position subject relative to sun for desired effect",
+        "Embrace soft, natural shadows"
+      ],
+      "common_mistakes": [
+        "Too cool color temperature losing warmth",
+        "Harsh shadows inconsistent with golden hour",
+        "Overexposure losing detail in highlights"
+      ]
+    },
+    {
+      "id": "light_003",
+      "name": "Dramatic Chiaroscuro",
+      "timestamp": "2025-08-31T00:10:00Z",
+      "description": "High contrast lighting with strong shadows and bright highlights",
+      "prompt_structure": {
+        "base_prompt": "Dramatic chiaroscuro lighting, {light_direction}, deep shadows, {highlight_intensity}",
+        "technical_specs": "High contrast ratio, selective illumination, artistic shadow play",
+        "mood_parameters": "Dramatic, mysterious, artistic, film noir influence"
+      },
+      "examples": [
+        {
+          "prompt": "Dramatic chiaroscuro lighting, single hard light from left, deep shadows, bright selective highlights, high contrast ratio, selective illumination, artistic shadow play, film noir atmosphere",
+          "use_case": "Film noir/dramatic scene",
+          "expected_result": "High contrast dramatic lighting"
+        },
+        {
+          "prompt": "Dramatic chiaroscuro lighting, window light cutting across scene, deep shadows, controlled bright highlights, high contrast ratio, selective illumination, artistic shadow play, mystery mood",
+          "use_case": "Artistic/mystery content",
+          "expected_result": "Artistic high-contrast composition"
+        }
+      ],
+      "best_practices": [
+        "Use single, hard light source for strong shadows",
+        "Control spill light to maintain contrast",
+        "Position light for dramatic facial modeling",
+        "Embrace deep shadows as compositional elements"
+      ],
+      "common_mistakes": [
+        "Too much fill light reducing contrast",
+        "Poor shadow placement losing dramatic effect",
+        "Inconsistent light direction within scene"
+      ]
+    },
+    {
+      "id": "light_004",
+      "name": "Soft Beauty Lighting",
+      "timestamp": "2025-08-31T00:11:00Z",
+      "description": "Flattering, even lighting designed to minimize harsh shadows and enhance features",
+      "prompt_structure": {
+        "base_prompt": "Soft beauty lighting, {diffusion_quality}, even illumination, {shadow_control}",
+        "technical_specs": "Large soft light sources, minimal shadows, flattering skin tones",
+        "setup_parameters": "Ring light, softboxes, or large diffused sources"
+      },
+      "examples": [
+        {
+          "prompt": "Soft beauty lighting, heavily diffused key light, even illumination across face, minimal shadow depth, large soft light sources, minimal shadows, flattering skin tones, beauty portrait session",
+          "use_case": "Beauty/fashion content",
+          "expected_result": "Flattering, even facial lighting"
+        },
+        {
+          "prompt": "Soft beauty lighting, ring light setup, even illumination, virtually shadowless, large soft light sources, minimal shadows, flattering skin tones, makeup tutorial setting",
+          "use_case": "Tutorial/instructional video",
+          "expected_result": "Clear, even lighting for detail work"
+        }
+      ],
+      "best_practices": [
+        "Use large, diffused light sources",
+        "Position lights close to subject for soft quality",
+        "Minimize harsh shadows on face",
+        "Maintain consistent, flattering skin tones"
+      ],
+      "common_mistakes": [
+        "Insufficient diffusion creating harsh shadows",
+        "Poor color temperature mixing",
+        "Uneven illumination across subject"
+      ]
+    },
+    {
+      "id": "light_005",
+      "name": "Motivated Practical Lighting",
+      "timestamp": "2025-08-31T00:12:00Z",
+      "description": "Lighting that appears to come from visible sources within the scene",
+      "prompt_structure": {
+        "base_prompt": "Motivated practical lighting from {light_source}, {color_quality}, naturalistic illumination",
+        "technical_specs": "Diegetic light sources, realistic color temperatures, natural falloff",
+        "source_types": "Window light, lamps, candles, neon signs, screens, fire"
+      },
+      "examples": [
+        {
+          "prompt": "Motivated practical lighting from desk lamp, warm tungsten color quality, naturalistic illumination, diegetic light sources, realistic color temperatures, natural falloff, home office setting",
+          "use_case": "Interior lifestyle scene",
+          "expected_result": "Natural, believable interior lighting"
+        },
+        {
+          "prompt": "Motivated practical lighting from neon storefront signs, cool blue-pink color quality, naturalistic illumination, diegetic light sources, realistic color temperatures, natural falloff, urban night scene",
+          "use_case": "Urban night cinematography",
+          "expected_result": "Atmospheric street lighting"
+        }
+      ],
+      "best_practices": [
+        "Match color temperature to visible light source",
+        "Respect natural light falloff patterns",
+        "Ensure practical sources are visible in frame",
+        "Layer multiple practical sources naturally"
+      ],
+      "common_mistakes": [
+        "Lighting too bright for apparent source",
+        "Wrong color temperature for light type",
+        "Unnatural light direction for source position"
+      ]
+    }
+  ],
+  "technical_guidelines": {
+    "color_temperatures": {
+      "tungsten": "2700-3200K (warm)",
+      "daylight": "5500-6500K (neutral)",
+      "cool_daylight": "7000-10000K (cool)"
+    },
+    "contrast_ratios": {
+      "low_contrast": "2:1 to 3:1 (flat, even)",
+      "medium_contrast": "4:1 to 6:1 (standard)",
+      "high_contrast": "8:1+ (dramatic)"
+    },
+    "light_quality_descriptors": {
+      "hard": "Direct, sharp shadows, high contrast",
+      "soft": "Diffused, gradual shadows, low contrast",
+      "motivated": "Appears from visible source in scene"
+    }
+  },
+  "mood_associations": {
+    "romantic": "Warm, soft, golden tones",
+    "dramatic": "High contrast, directional, shadows",
+    "corporate": "Even, neutral, professional",
+    "artistic": "Creative angles, selective illumination",
+    "natural": "Motivated sources, realistic temperatures"
+  },
+  "usage_notes": {
+    "scene_matching": "Choose lighting to support narrative mood",
+    "consistency": "Maintain lighting logic throughout sequences",
+    "practical_limitations": "Consider Veo 3's lighting rendering capabilities"
+  }
+}

@@ -1,0 +1,213 @@
+{
+  "metadata": {
+    "title": "Advanced Audio Integration - Veo 3 Prompts",
+    "version": "1.0.0",
+    "created_by": "N.Sachin Deshik",
+    "created_date": "2025-08-31T00:00:00Z",
+    "last_updated": "2025-08-31T00:00:00Z",
+    "category": "audio",
+    "subcategory": "dialogue_and_sound",
+    "description": "Advanced audio and dialogue integration techniques for Veo 3 video generation"
+  },
+  "prompt_templates": [
+    {
+      "id": "audio_001",
+      "name": "Natural Dialogue Integration",
+      "timestamp": "2025-08-31T00:13:00Z",
+      "description": "Seamless integration of natural-sounding dialogue with lip sync",
+      "prompt_structure": {
+        "base_prompt": "Natural dialogue: '{dialogue_text}', {delivery_style}, {emotional_context}, {audio_quality}",
+        "technical_specs": "Clear articulation, natural rhythm, emotional authenticity, lip sync accuracy",
+        "delivery_parameters": "Conversational, professional, emotional, whispered, shouted"
+      },
+      "examples": [
+        {
+          "prompt": "Natural dialogue: 'Welcome to our innovative workspace where creativity meets technology', professional delivery style, confident emotional context, broadcast audio quality, clear articulation, natural rhythm, emotional authenticity, lip sync accuracy",
+          "use_case": "Corporate presentation",
+          "expected_result": "Professional spokesperson delivery"
+        },
+        {
+          "prompt": "Natural dialogue: 'I can't believe this is actually happening to us right now', emotional delivery style, shocked emotional context, intimate audio quality, clear articulation, natural rhythm, emotional authenticity, lip sync accuracy",
+          "use_case": "Dramatic scene",
+          "expected_result": "Authentic emotional performance"
+        }
+      ],
+      "best_practices": [
+        "Write dialogue that sounds natural when spoken",
+        "Match emotional context to facial expressions",
+        "Specify delivery style for consistent performance",
+        "Consider pacing and natural speech patterns"
+      ],
+      "common_mistakes": [
+        "Overly formal dialogue sounding robotic",
+        "Mismatched emotion between voice and visuals",
+        "Poor lip sync timing"
+      ]
+    },
+    {
+      "id": "audio_002",
+      "name": "Ambient Sound Design",
+      "timestamp": "2025-08-31T00:14:00Z",
+      "description": "Environmental and atmospheric audio that enhances scene realism",
+      "prompt_structure": {
+        "base_prompt": "Ambient sound design: {environment_type}, {sound_layers}, {audio_mood}, {volume_balance}",
+        "technical_specs": "Layered soundscape, realistic environmental audio, spatial awareness",
+        "environment_types": "Urban, nature, interior, industrial, suburban, underwater"
+      },
+      "examples": [
+        {
+          "prompt": "Ambient sound design: bustling urban environment, layered traffic and pedestrian sounds, energetic audio mood, balanced volume levels, layered soundscape, realistic environmental audio, spatial awareness",
+          "use_case": "City lifestyle video",
+          "expected_result": "Immersive urban atmosphere"
+        },
+        {
+          "prompt": "Ambient sound design: peaceful forest setting, bird calls and rustling leaves, serene audio mood, subtle volume levels, layered soundscape, realistic environmental audio, spatial awareness",
+          "use_case": "Nature documentary",
+          "expected_result": "Calming natural environment"
+        }
+      ],
+      "best_practices": [
+        "Layer multiple sound elements for realism",
+        "Match audio to visual environment",
+        "Use appropriate volume levels for scene context",
+        "Consider spatial audio positioning"
+      ],
+      "common_mistakes": [
+        "Single-layer audio sounding flat",
+        "Audio not matching visual environment",
+        "Overwhelming ambient levels drowning dialogue"
+      ]
+    },
+    {
+      "id": "audio_003",
+      "name": "Musical Score Integration",
+      "timestamp": "2025-08-31T00:15:00Z",
+      "description": "Background music that supports narrative and emotional content",
+      "prompt_structure": {
+        "base_prompt": "Musical score: {genre/style}, {emotional_tone}, {instrumentation}, {dynamic_level}",
+        "technical_specs": "Complementary to dialogue, appropriate emotional support, professional mixing",
+        "music_styles": "Orchestral, electronic, acoustic, jazz, rock, ambient, minimalist"
+      },
+      "examples": [
+        {
+          "prompt": "Musical score: uplifting orchestral, inspiring emotional tone, string and brass instrumentation, moderate dynamic level, complementary to dialogue, appropriate emotional support, professional mixing",
+          "use_case": "Motivational corporate video",
+          "expected_result": "Inspiring background music supporting message"
+        },
+        {
+          "prompt": "Musical score: subtle ambient electronic, mysterious emotional tone, synthesizer and pad instrumentation, low dynamic level, complementary to dialogue, appropriate emotional support, professional mixing",
+          "use_case": "Tech product showcase",
+          "expected_result": "Modern, sophisticated audio backdrop"
+        }
+      ],
+      "best_practices": [
+        "Choose music that supports rather than competes",
+        "Match emotional tone to visual content",
+        "Use appropriate dynamic levels for dialogue clarity",
+        "Consider genre appropriateness for content type"
+      ],
+      "common_mistakes": [
+        "Music overpowering dialogue or important sounds",
+        "Emotional mismatch between music and visuals",
+        "Generic music choices lacking character"
+      ]
+    },
+    {
+      "id": "audio_004",
+      "name": "Sound Effects Integration",
+      "timestamp": "2025-08-31T00:16:00Z",
+      "description": "Specific sound effects that enhance actions and environment",
+      "prompt_structure": {
+        "base_prompt": "Sound effects: {action_sounds}, {timing_sync}, {realistic_quality}, {spatial_placement}",
+        "technical_specs": "Action-synchronized, realistic timbre, appropriate volume, spatial accuracy",
+        "effect_categories": "Foley, mechanical, electronic, natural, impact, movement"
+      },
+      "examples": [
+        {
+          "prompt": "Sound effects: keyboard typing and mouse clicks, precise timing sync, realistic office quality, close spatial placement, action-synchronized, realistic timbre, appropriate volume, spatial accuracy",
+          "use_case": "Computer work demonstration",
+          "expected_result": "Authentic office work audio"
+        },
+        {
+          "prompt": "Sound effects: car engine and door slam, perfect timing sync, realistic automotive quality, exterior spatial placement, action-synchronized, realistic timbre, appropriate volume, spatial accuracy",
+          "use_case": "Automotive content",
+          "expected_result": "Believable vehicle audio"
+        }
+      ],
+      "best_practices": [
+        "Synchronize effects precisely with visual actions",
+        "Use realistic sound quality appropriate to context",
+        "Consider spatial placement of sound sources",
+        "Balance effect levels with other audio elements"
+      ],
+      "common_mistakes": [
+        "Poor timing sync with visual actions",
+        "Unrealistic or cartoonish sound effects",
+        "Inappropriate volume levels for context"
+      ]
+    },
+    {
+      "id": "audio_005",
+      "name": "Voiceover Narration",
+      "timestamp": "2025-08-31T00:17:00Z",
+      "description": "Professional narration overlay for explanatory or storytelling content",
+      "prompt_structure": {
+        "base_prompt": "Voiceover narration: '{narration_text}', {voice_character}, {delivery_pace}, {recording_quality}",
+        "technical_specs": "Professional recording quality, clear diction, appropriate pacing, emotional engagement",
+        "voice_styles": "Authoritative, conversational, warm, energetic, documentary, commercial"
+      },
+      "examples": [
+        {
+          "prompt": "Voiceover narration: 'Our innovative approach to sustainable technology is reshaping the future of clean energy', authoritative voice character, measured delivery pace, broadcast recording quality, professional recording quality, clear diction, appropriate pacing, emotional engagement",
+          "use_case": "Corporate documentary",
+          "expected_result": "Professional documentary narration"
+        },
+        {
+          "prompt": "Voiceover narration: 'Follow these simple steps to create your perfect morning routine', warm conversational voice character, friendly delivery pace, intimate recording quality, professional recording quality, clear diction, appropriate pacing, emotional engagement",
+          "use_case": "Lifestyle tutorial",
+          "expected_result": "Engaging instructional narration"
+        }
+      ],
+      "best_practices": [
+        "Write narration for spoken delivery, not reading",
+        "Match voice character to content type and audience",
+        "Use appropriate pacing for content comprehension",
+        "Ensure professional recording quality standards"
+      ],
+      "common_mistakes": [
+        "Written-style text that sounds unnatural spoken",
+        "Inappropriate voice character for content",
+        "Too fast or slow pacing for audience comprehension"
+      ]
+    }
+  ],
+  "technical_guidelines": {
+    "audio_quality_specifications": {
+      "dialogue": "48kHz/24-bit, noise-free, clear articulation",
+      "ambient": "Stereo/surround positioning, appropriate levels",
+      "music": "High-quality streaming/broadcast standard",
+      "effects": "Synchronized timing, realistic timbre"
+    },
+    "mixing_principles": {
+      "dialogue_priority": "Always maintain dialogue clarity",
+      "frequency_separation": "EQ elements to avoid frequency conflicts",
+      "dynamic_range": "Appropriate compression for platform delivery"
+    },
+    "delivery_considerations": {
+      "platform_specs": "Match audio specifications to delivery platform",
+      "compression": "Account for platform audio compression",
+      "loudness": "Follow broadcast/streaming loudness standards"
+    }
+  },
+  "integration_strategies": {
+    "audio_visual_sync": "Precise timing alignment with visual elements",
+    "emotional_coherence": "Audio supports visual emotional narrative",
+    "scene_transitions": "Audio continuity across scene changes",
+    "layering_approach": "Build complex soundscapes through strategic layering"
+  },
+  "usage_notes": {
+    "veo3_capabilities": "Leverage Veo 3's native audio generation capabilities",
+    "post_production": "Plan for potential audio enhancement in post",
+    "content_appropriateness": "Match audio complexity to content requirements"
+  }
+}

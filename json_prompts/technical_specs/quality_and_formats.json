@@ -1,0 +1,244 @@
+{
+  "metadata": {
+    "title": "Technical Specifications - Veo 3 Prompts",
+    "version": "1.0.0",
+    "created_by": "N.Sachin Deshik",
+    "created_date": "2025-08-31T00:00:00Z",
+    "last_updated": "2025-08-31T00:00:00Z",
+    "category": "technical_specs",
+    "subcategory": "quality_and_formats",
+    "description": "Technical specifications and quality parameters for professional Veo 3 video generation"
+  },
+  "prompt_templates": [
+    {
+      "id": "tech_001",
+      "name": "Resolution and Format Standards",
+      "timestamp": "2025-08-31T00:23:00Z",
+      "description": "Professional resolution and format specifications for different use cases",
+      "prompt_structure": {
+        "base_prompt": "{resolution} resolution, {aspect_ratio} aspect ratio, {frame_rate} fps, {color_depth}",
+        "technical_specs": "Professional broadcast standards, appropriate for delivery platform",
+        "format_considerations": "Platform requirements, bandwidth limitations, quality standards"
+      },
+      "examples": [
+        {
+          "prompt": "4K UHD resolution, 16:9 aspect ratio, 24 fps cinematic frame rate, 10-bit color depth, professional broadcast standards, appropriate for streaming platform delivery",
+          "use_case": "Streaming platform content",
+          "expected_result": "High-quality streaming-ready video"
+        },
+        {
+          "prompt": "1080p HD resolution, 9:16 vertical aspect ratio, 30 fps standard frame rate, 8-bit color depth, professional broadcast standards, appropriate for social media platform delivery",
+          "use_case": "Social media vertical video",
+          "expected_result": "Mobile-optimized vertical content"
+        }
+      ],
+      "specifications": {
+        "resolution_options": {
+          "8K": "7680×4320 - Premium/future-proofing",
+          "4K_UHD": "3840×2160 - High-end production standard",
+          "4K_DCI": "4096×2160 - Cinema standard",
+          "1080p": "1920×1080 - Standard HD",
+          "720p": "1280×720 - Basic HD"
+        },
+        "aspect_ratios": {
+          "cinematic": "2.39:1, 2.35:1 - Theatrical widescreen",
+          "standard": "16:9 - Television/streaming standard",
+          "square": "1:1 - Social media square format",
+          "vertical": "9:16 - Mobile/social media vertical",
+          "ultra_wide": "21:9 - Ultra-wide cinematic"
+        },
+        "frame_rates": {
+          "cinematic": "24fps - Film standard",
+          "broadcast": "30fps - Television standard",
+          "smooth": "60fps - Smooth motion",
+          "high_speed": "120fps+ - Slow motion capture"
+        }
+      },
+      "platform_recommendations": {
+        "youtube": "4K/16:9/30fps for standard, 1080p/9:16/30fps for Shorts",
+        "instagram": "1080p/9:16/30fps for Stories/Reels, 1080p/1:1/30fps for Feed",
+        "tiktok": "1080p/9:16/30fps standard",
+        "broadcast": "1080p/16:9/30fps minimum, 4K preferred",
+        "cinema": "4K DCI/2.39:1/24fps standard"
+      }
+    },
+    {
+      "id": "tech_002",
+      "name": "Color Science and Grading",
+      "timestamp": "2025-08-31T00:24:00Z",
+      "description": "Professional color space and grading specifications",
+      "prompt_structure": {
+        "base_prompt": "{color_space} color space, {bit_depth} color depth, {color_grading_style}, {gamma_curve}",
+        "technical_specs": "Professional color science, appropriate color gamut, standardized gamma",
+        "workflow_considerations": "Post-production compatibility, delivery requirements"
+      },
+      "examples": [
+        {
+          "prompt": "Rec.709 color space, 10-bit color depth, natural color grading style, Gamma 2.4 curve, professional color science, appropriate color gamut, standardized gamma for broadcast delivery",
+          "use_case": "Broadcast television content",
+          "expected_result": "Broadcast-compliant color reproduction"
+        },
+        {
+          "prompt": "P3 display color space, 10-bit color depth, cinematic color grading style, Log gamma curve, professional color science, wide color gamut, standardized gamma for theatrical release",
+          "use_case": "Theatrical cinema content",
+          "expected_result": "Wide gamut cinematic color"
+        }
+      ],
+      "specifications": {
+        "color_spaces": {
+          "Rec.709": "Standard HD/broadcast color space",
+          "P3_Display": "Wide gamut for cinema/high-end displays",
+          "Rec.2020": "Ultra-wide gamut for future HDR content",
+          "sRGB": "Standard web/computer display"
+        },
+        "bit_depths": {
+          "8_bit": "256 levels per channel - Standard delivery",
+          "10_bit": "1024 levels per channel - Professional production",
+          "12_bit": "4096 levels per channel - High-end production"
+        },
+        "gamma_curves": {
+          "Gamma_2.4": "Standard broadcast/display gamma",
+          "Log": "Logarithmic curve for maximum dynamic range",
+          "Linear": "Linear light for VFX/compositing",
+          "sRGB": "Standard web display curve"
+        }
+      },
+      "grading_styles": {
+        "natural": "Realistic color reproduction",
+        "cinematic": "Enhanced dramatic color",
+        "commercial": "Vibrant, appealing colors",
+        "vintage": "Period-appropriate color treatment",
+        "stylized": "Creative color manipulation"
+      }
+    },
+    {
+      "id": "tech_003",
+      "name": "Audio Technical Specifications",
+      "timestamp": "2025-08-31T00:25:00Z",
+      "description": "Professional audio specifications and quality parameters",
+      "prompt_structure": {
+        "base_prompt": "{sample_rate} audio sampling, {bit_depth} audio depth, {channel_configuration}, {audio_codec}",
+        "technical_specs": "Professional audio quality, appropriate for delivery platform",
+        "audio_considerations": "Dynamic range, frequency response, noise floor"
+      },
+      "examples": [
+        {
+          "prompt": "48kHz audio sampling, 24-bit audio depth, 5.1 surround channel configuration, uncompressed audio codec, professional audio quality, full frequency response, low noise floor for theatrical release",
+          "use_case": "Theatrical surround sound",
+          "expected_result": "High-end surround audio experience"
+        },
+        {
+          "prompt": "48kHz audio sampling, 16-bit audio depth, stereo channel configuration, AAC audio codec, professional audio quality, optimized frequency response, controlled noise floor for streaming delivery",
+          "use_case": "Streaming platform delivery",
+          "expected_result": "High-quality streaming audio"
+        }
+      ],
+      "specifications": {
+        "sample_rates": {
+          "44.1kHz": "CD quality standard",
+          "48kHz": "Professional video standard",
+          "96kHz": "High-resolution audio",
+          "192kHz": "Ultra high-resolution (rarely needed)"
+        },
+        "bit_depths": {
+          "16_bit": "CD quality - 96dB dynamic range",
+          "24_bit": "Professional standard - 144dB dynamic range",
+          "32_bit": "High-end production - Maximum headroom"
+        },
+        "channel_configurations": {
+          "mono": "Single channel",
+          "stereo": "Left/right channels",
+          "5.1_surround": "Six channels with subwoofer",
+          "7.1_surround": "Eight channels with subwoofer",
+          "Dolby_Atmos": "Object-based surround sound"
+        }
+      }
+    },
+    {
+      "id": "tech_004",
+      "name": "Compression and Delivery",
+      "timestamp": "2025-08-31T00:26:00Z",
+      "description": "Compression standards and delivery optimization",
+      "prompt_structure": {
+        "base_prompt": "{codec_standard}, {bitrate_target}, {compression_efficiency}, optimized for {delivery_platform}",
+        "technical_specs": "Efficient compression maintaining quality, platform-specific optimization",
+        "delivery_considerations": "Bandwidth requirements, quality preservation, compatibility"
+      },
+      "examples": [
+        {
+          "prompt": "H.265/HEVC codec standard, 20 Mbps bitrate target, high compression efficiency, optimized for 4K streaming platform delivery, efficient compression maintaining quality, platform-specific optimization",
+          "use_case": "4K streaming content",
+          "expected_result": "Efficient high-quality 4K delivery"
+        },
+        {
+          "prompt": "H.264/AVC codec standard, 5 Mbps bitrate target, balanced compression efficiency, optimized for mobile platform delivery, efficient compression maintaining quality, platform-specific optimization",
+          "use_case": "Mobile streaming content",
+          "expected_result": "Mobile-optimized streaming quality"
+        }
+      ],
+      "specifications": {
+        "video_codecs": {
+          "H.264/AVC": "Universal compatibility, good compression",
+          "H.265/HEVC": "Better compression, 4K streaming standard",
+          "AV1": "Next-gen codec, excellent compression",
+          "VP9": "Google's codec, good for web delivery"
+        },
+        "bitrate_guidelines": {
+          "4K": "15-25 Mbps for high quality",
+          "1080p": "5-10 Mbps for high quality",
+          "720p": "2.5-5 Mbps for high quality",
+          "mobile": "1-3 Mbps for mobile delivery"
+        },
+        "audio_codecs": {
+          "AAC": "Standard for most platforms",
+          "MP3": "Universal compatibility",
+          "Opus": "High efficiency, low latency",
+          "Dolby_Digital": "Surround sound standard"
+        }
+      }
+    }
+  ],
+  "quality_control_checklist": {
+    "video_quality": [
+      "Resolution meets platform requirements",
+      "Aspect ratio appropriate for use case",
+      "Frame rate consistent throughout",
+      "Color reproduction accurate",
+      "No visible compression artifacts"
+    ],
+    "audio_quality": [
+      "Sample rate appropriate for delivery",
+      "Bit depth sufficient for dynamic range",
+      "No clipping or distortion",
+      "Consistent levels throughout",
+      "Sync maintained with video"
+    ],
+    "technical_compliance": [
+      "Codec compatibility verified",
+      "File size within platform limits",
+      "Metadata properly embedded",
+      "Delivery format specifications met"
+    ]
+  },
+  "platform_specific_requirements": {
+    "youtube": {
+      "recommended": "H.264, 1080p/4K, 30fps, AAC audio",
+      "max_file_size": "256GB",
+      "max_duration": "12 hours"
+    },
+    "instagram": {
+      "feed": "H.264, 1080p, 30fps, square/landscape",
+      "stories": "H.264, 1080p, 30fps, 9:16",
+      "reels": "H.264, 1080p, 30fps, 9:16, max 90 seconds"
+    },
+    "broadcast": {
+      "minimum": "1080i/p, 16:9, Rec.709 color space",
+      "preferred": "4K, 10-bit, professional codecs"
+    }
+  },
+  "usage_notes": {
+    "veo3_optimization": "Specify technical parameters that align with Veo 3 capabilities",
+    "future_proofing": "Consider higher specifications for content longevity",
+    "workflow_integration": "Ensure technical specs support post-production workflow"
+  }
+}

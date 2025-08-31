@@ -1,0 +1,243 @@
+{
+  "metadata": {
+    "title": "Visual Styles and Genres - Veo 3 Prompts",
+    "version": "1.0.0",
+    "created_by": "N.Sachin Deshik",
+    "created_date": "2025-08-31T00:00:00Z",
+    "last_updated": "2025-08-31T00:00:00Z",
+    "category": "styles_genres",
+    "subcategory": "cinematic_styles",
+    "description": "Comprehensive visual styles and genre-specific prompting for Veo 3 video generation"
+  },
+  "prompt_templates": [
+    {
+      "id": "style_001",
+      "name": "Film Noir Classic",
+      "timestamp": "2025-08-31T00:18:00Z",
+      "description": "Classic film noir aesthetic with high contrast lighting and dramatic shadows",
+      "prompt_structure": {
+        "base_prompt": "Film noir style, {contrast_level}, dramatic chiaroscuro lighting, {color_palette}, {atmosphere}",
+        "technical_specs": "High contrast black and white or desaturated, venetian blind shadows, urban setting",
+        "visual_elements": "Hard shadows, smoke, rain reflections, neon signs, dramatic angles"
+      },
+      "examples": [
+        {
+          "prompt": "Film noir style, high contrast lighting, dramatic chiaroscuro lighting, monochrome color palette, mysterious atmosphere, high contrast black and white, venetian blind shadows, urban setting, detective investigating dark alley",
+          "use_case": "Crime/mystery content",
+          "expected_result": "Classic noir aesthetic with dramatic lighting"
+        },
+        {
+          "prompt": "Film noir style, medium contrast lighting, dramatic chiaroscuro lighting, desaturated color palette, brooding atmosphere, high contrast black and white, venetian blind shadows, urban setting, femme fatale in smoke-filled bar",
+          "use_case": "Character study/drama",
+          "expected_result": "Atmospheric noir character scene"
+        }
+      ],
+      "best_practices": [
+        "Use hard, directional lighting for dramatic shadows",
+        "Incorporate urban elements and architecture",
+        "Emphasize contrast and shadow play",
+        "Consider desaturated or monochrome color schemes"
+      ],
+      "common_mistakes": [
+        "Too much fill light reducing noir contrast",
+        "Modern elements breaking period authenticity",
+        "Insufficient shadow depth"
+      ]
+    },
+    {
+      "id": "style_002",
+      "name": "Cyberpunk Future",
+      "timestamp": "2025-08-31T00:19:00Z",
+      "description": "Futuristic cyberpunk aesthetic with neon colors and high-tech elements",
+      "prompt_structure": {
+        "base_prompt": "Cyberpunk style, {neon_colors}, futuristic technology, {urban_density}, {weather_effects}",
+        "technical_specs": "Saturated neon lighting, digital displays, rain effects, smoke/fog atmosphere",
+        "color_scheme": "Electric blues, hot pinks, acid greens, purple highlights"
+      },
+      "examples": [
+        {
+          "prompt": "Cyberpunk style, electric blue and hot pink neon colors, futuristic technology displays, dense urban environment, heavy rain effects, saturated neon lighting, digital displays, smoke atmosphere, street scene at night",
+          "use_case": "Sci-fi/futuristic content",
+          "expected_result": "Atmospheric cyberpunk street scene"
+        },
+        {
+          "prompt": "Cyberpunk style, acid green and purple neon colors, holographic technology interfaces, towering urban density, fog weather effects, saturated neon lighting, digital displays, smoke atmosphere, character in tech-enhanced environment",
+          "use_case": "Character showcase/tech demo",
+          "expected_result": "High-tech character environment"
+        }
+      ],
+      "best_practices": [
+        "Use saturated neon color palettes",
+        "Incorporate digital/holographic elements",
+        "Add atmospheric effects (rain, fog, smoke)",
+        "Emphasize urban density and vertical architecture"
+      ],
+      "common_mistakes": [
+        "Insufficient neon lighting saturation",
+        "Clean environments lacking gritty atmosphere",
+        "Missing technological integration elements"
+      ]
+    },
+    {
+      "id": "style_003",
+      "name": "Documentary Realism",
+      "timestamp": "2025-08-31T00:20:00Z",
+      "description": "Authentic documentary style with natural lighting and handheld camera feel",
+      "prompt_structure": {
+        "base_prompt": "Documentary realism style, {natural_lighting}, {camera_movement}, authentic {environment_type}",
+        "technical_specs": "Natural color grading, handheld camera movement, available light sources",
+        "authenticity_markers": "Unposed subjects, real locations, natural interactions"
+      },
+      "examples": [
+        {
+          "prompt": "Documentary realism style, available natural lighting, subtle handheld camera movement, authentic workplace environment, natural color grading, handheld camera movement, available light sources, workers in genuine interaction",
+          "use_case": "Corporate culture documentation",
+          "expected_result": "Authentic workplace documentation"
+        },
+        {
+          "prompt": "Documentary realism style, window natural lighting, gentle handheld camera movement, authentic home environment, natural color grading, handheld camera movement, available light sources, family in natural interaction",
+          "use_case": "Lifestyle/family content",
+          "expected_result": "Genuine family moment capture"
+        }
+      ],
+      "best_practices": [
+        "Use natural, available lighting when possible",
+        "Embrace slight camera movement for authenticity",
+        "Focus on genuine interactions and environments",
+        "Maintain natural color grading and minimal effects"
+      ],
+      "common_mistakes": [
+        "Over-produced lighting destroying authenticity",
+        "Too perfect framing losing documentary feel",
+        "Obvious staging breaking realism"
+      ]
+    },
+    {
+      "id": "style_004",
+      "name": "Vintage Retro",
+      "timestamp": "2025-08-31T00:21:00Z",
+      "description": "Period-appropriate vintage aesthetic with era-specific visual characteristics",
+      "prompt_structure": {
+        "base_prompt": "Vintage {decade} style, {color_treatment}, period-appropriate {visual_elements}, {film_quality}",
+        "technical_specs": "Era-specific color grading, appropriate grain/texture, period lighting",
+        "decade_options": "1950s, 1960s, 1970s, 1980s, 1990s with specific visual characteristics"
+      },
+      "examples": [
+        {
+          "prompt": "Vintage 1980s style, warm saturated color treatment, period-appropriate neon and chrome visual elements, VHS film quality, era-specific color grading, film grain texture, period lighting, retro tech environment",
+          "use_case": "Nostalgia marketing/entertainment",
+          "expected_result": "Authentic 80s aesthetic with period details"
+        },
+        {
+          "prompt": "Vintage 1970s style, warm earthy color treatment, period-appropriate wood paneling and orange visual elements, Super 8 film quality, era-specific color grading, film grain texture, period lighting, domestic interior scene",
+          "use_case": "Period piece/historical content",
+          "expected_result": "Authentic 70s domestic environment"
+        }
+      ],
+      "best_practices": [
+        "Research era-specific visual characteristics",
+        "Use appropriate color grading for time period",
+        "Include period-accurate props and environments",
+        "Apply appropriate film grain/texture effects"
+      ],
+      "common_mistakes": [
+        "Mixing elements from different decades",
+        "Modern elements breaking period authenticity",
+        "Wrong color temperature for era"
+      ]
+    },
+    {
+      "id": "style_005",
+      "name": "High Fashion Commercial",
+      "timestamp": "2025-08-31T00:22:00Z",
+      "description": "Luxury fashion aesthetic with perfect lighting and stylized visuals",
+      "prompt_structure": {
+        "base_prompt": "High fashion style, {lighting_perfection}, luxury {aesthetic_elements}, {color_sophistication}",
+        "technical_specs": "Flawless lighting, high-end color grading, perfect composition, luxury materials",
+        "production_values": "Studio quality, professional styling, premium visual treatment"
+      },
+      "examples": [
+        {
+          "prompt": "High fashion style, perfect studio lighting perfection, luxury minimal aesthetic elements, sophisticated monochrome color sophistication, flawless lighting, high-end color grading, perfect composition, model in designer clothing",
+          "use_case": "Fashion/luxury brand content",
+          "expected_result": "Premium fashion photography aesthetic"
+        },
+        {
+          "prompt": "High fashion style, dramatic beauty lighting perfection, luxury metallic aesthetic elements, sophisticated jewel-tone color sophistication, flawless lighting, high-end color grading, perfect composition, jewelry product showcase",
+          "use_case": "Luxury product advertising",
+          "expected_result": "High-end product presentation"
+        }
+      ],
+      "best_practices": [
+        "Use perfect, controlled lighting setups",
+        "Emphasize luxury materials and textures",
+        "Maintain sophisticated color palettes",
+        "Ensure flawless composition and styling"
+      ],
+      "common_mistakes": [
+        "Insufficient attention to lighting perfection",
+        "Budget production values showing",
+        "Poor styling or composition choices"
+      ]
+    }
+  ],
+  "style_categories": {
+    "cinematic_genres": [
+      "Film Noir",
+      "Cyberpunk",
+      "Western",
+      "Horror",
+      "Romantic Comedy",
+      "Action Thriller",
+      "Science Fiction"
+    ],
+    "commercial_styles": [
+      "High Fashion",
+      "Corporate Professional",
+      "Lifestyle Brand",
+      "Tech Product",
+      "Automotive",
+      "Food & Beverage"
+    ],
+    "documentary_approaches": [
+      "Cinema Verité",
+      "Observational",
+      "Participatory",
+      "Performative",
+      "Expository"
+    ],
+    "artistic_movements": [
+      "Impressionistic",
+      "Surreal",
+      "Minimalist",
+      "Expressionistic",
+      "Pop Art"
+    ]
+  },
+  "technical_style_parameters": {
+    "color_grading_approaches": {
+      "naturalistic": "Maintains realistic color relationships",
+      "stylized": "Creative color manipulation for artistic effect",
+      "period_accurate": "Colors appropriate to historical period",
+      "brand_specific": "Colors aligned with brand guidelines"
+    },
+    "camera_aesthetics": {
+      "locked_off": "Stable, composed shots",
+      "handheld": "Natural movement and energy",
+      "stabilized_movement": "Smooth professional camera moves",
+      "kinetic": "Dynamic, energetic camera work"
+    },
+    "lighting_philosophies": {
+      "naturalistic": "Motivated by apparent sources",
+      "dramatic": "Enhanced for emotional impact",
+      "perfect": "Flawless studio-quality illumination",
+      "atmospheric": "Mood and environment focused"
+    }
+  },
+  "usage_guidelines": {
+    "style_consistency": "Maintain chosen aesthetic throughout sequence",
+    "audience_appropriateness": "Match style to target audience expectations",
+    "brand_alignment": "Ensure style supports brand personality",
+    "technical_feasibility": "Consider Veo 3's style rendering capabilities"
+  }
+}

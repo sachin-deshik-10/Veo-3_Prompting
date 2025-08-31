@@ -1,0 +1,347 @@
+{
+  "metadata": {
+    "title": "Veo 3 Master Prompts Index",
+    "version": "1.0.0",
+    "created_by": "N.Sachin Deshik",
+    "created_date": "2025-08-31T00:00:00Z",
+    "last_updated": "2025-08-31T00:32:00Z",
+    "description": "Master index and navigation system for all Veo 3 JSON prompt collections",
+    "total_prompt_files": 7,
+    "total_individual_prompts": 32
+  },
+  "folder_structure": {
+    "json_prompts/": {
+      "description": "Root directory for all structured JSON prompts",
+      "created": "2025-08-31T00:00:00Z",
+      "subdirectories": {
+        "cinematography/": {
+          "description": "Professional shot compositions and camera work",
+          "files": [
+            "professional_shots.json"
+          ],
+          "prompt_count": 3
+        },
+        "camera_movements/": {
+          "description": "Dynamic camera movement techniques",
+          "files": [
+            "advanced_movements.json"
+          ],
+          "prompt_count": 4
+        },
+        "lighting/": {
+          "description": "Professional lighting setups and techniques",
+          "files": [
+            "professional_setups.json"
+          ],
+          "prompt_count": 5
+        },
+        "audio/": {
+          "description": "Advanced audio integration and dialogue",
+          "files": [
+            "advanced_integration.json"
+          ],
+          "prompt_count": 5
+        },
+        "styles_genres/": {
+          "description": "Visual styles and genre-specific aesthetics",
+          "files": [
+            "cinematic_styles.json"
+          ],
+          "prompt_count": 5
+        },
+        "technical_specs/": {
+          "description": "Technical specifications and quality parameters",
+          "files": [
+            "quality_and_formats.json"
+          ],
+          "prompt_count": 4
+        },
+        "visual_effects/": {
+          "description": "Advanced visual effects and post-production",
+          "files": [
+            "advanced_vfx.json"
+          ],
+          "prompt_count": 5
+        }
+      }
+    }
+  },
+  "prompt_collections": {
+    "cinematography": {
+      "file_path": "json_prompts/cinematography/professional_shots.json",
+      "category": "Cinematography",
+      "prompts": [
+        {
+          "id": "cine_001",
+          "name": "Master Wide Shot",
+          "description": "Establishes the entire scene with full character visibility",
+          "timestamp": "2025-08-31T00:01:00Z"
+        },
+        {
+          "id": "cine_002",
+          "name": "Medium Close-Up",
+          "description": "Frames subject from chest up for dialogue and emotion",
+          "timestamp": "2025-08-31T00:02:00Z"
+        },
+        {
+          "id": "cine_003",
+          "name": "Extreme Close-Up",
+          "description": "Focuses on specific details for dramatic impact",
+          "timestamp": "2025-08-31T00:03:00Z"
+        }
+      ]
+    },
+    "camera_movements": {
+      "file_path": "json_prompts/camera_movements/advanced_movements.json",
+      "category": "Camera Movements",
+      "prompts": [
+        {
+          "id": "cam_001",
+          "name": "Smooth Dolly Track",
+          "description": "Horizontal camera movement parallel to subject",
+          "timestamp": "2025-08-31T00:04:00Z"
+        },
+        {
+          "id": "cam_002",
+          "name": "Cinematic Crane Shot",
+          "description": "Vertical camera movement revealing scene elements",
+          "timestamp": "2025-08-31T00:05:00Z"
+        },
+        {
+          "id": "cam_003",
+          "name": "360-Degree Orbit",
+          "description": "Camera revolves around subject maintaining focus",
+          "timestamp": "2025-08-31T00:06:00Z"
+        },
+        {
+          "id": "cam_004",
+          "name": "Push-In Focus Pull",
+          "description": "Camera moves toward subject with focus adjustment",
+          "timestamp": "2025-08-31T00:07:00Z"
+        }
+      ]
+    },
+    "lighting": {
+      "file_path": "json_prompts/lighting/professional_setups.json",
+      "category": "Professional Lighting",
+      "prompts": [
+        {
+          "id": "light_001",
+          "name": "Three-Point Lighting Classic",
+          "description": "Standard professional lighting with key, fill, and rim",
+          "timestamp": "2025-08-31T00:08:00Z"
+        },
+        {
+          "id": "light_002",
+          "name": "Golden Hour Natural",
+          "description": "Warm, soft natural lighting during golden hour",
+          "timestamp": "2025-08-31T00:09:00Z"
+        },
+        {
+          "id": "light_003",
+          "name": "Dramatic Chiaroscuro",
+          "description": "High contrast lighting with strong shadows",
+          "timestamp": "2025-08-31T00:10:00Z"
+        },
+        {
+          "id": "light_004",
+          "name": "Soft Beauty Lighting",
+          "description": "Flattering, even lighting minimizing harsh shadows",
+          "timestamp": "2025-08-31T00:11:00Z"
+        },
+        {
+          "id": "light_005",
+          "name": "Motivated Practical Lighting",
+          "description": "Lighting from visible sources within the scene",
+          "timestamp": "2025-08-31T00:12:00Z"
+        }
+      ]
+    },
+    "audio": {
+      "file_path": "json_prompts/audio/advanced_integration.json",
+      "category": "Audio Integration",
+      "prompts": [
+        {
+          "id": "audio_001",
+          "name": "Natural Dialogue Integration",
+          "description": "Seamless natural-sounding dialogue with lip sync",
+          "timestamp": "2025-08-31T00:13:00Z"
+        },
+        {
+          "id": "audio_002",
+          "name": "Ambient Sound Design",
+          "description": "Environmental and atmospheric audio enhancement",
+          "timestamp": "2025-08-31T00:14:00Z"
+        },
+        {
+          "id": "audio_003",
+          "name": "Musical Score Integration",
+          "description": "Background music supporting narrative content",
+          "timestamp": "2025-08-31T00:15:00Z"
+        },
+        {
+          "id": "audio_004",
+          "name": "Sound Effects Integration",
+          "description": "Specific sound effects enhancing actions",
+          "timestamp": "2025-08-31T00:16:00Z"
+        },
+        {
+          "id": "audio_005",
+          "name": "Voiceover Narration",
+          "description": "Professional narration overlay for explanatory content",
+          "timestamp": "2025-08-31T00:17:00Z"
+        }
+      ]
+    },
+    "styles_genres": {
+      "file_path": "json_prompts/styles_genres/cinematic_styles.json",
+      "category": "Visual Styles & Genres",
+      "prompts": [
+        {
+          "id": "style_001",
+          "name": "Film Noir Classic",
+          "description": "Classic noir aesthetic with high contrast lighting",
+          "timestamp": "2025-08-31T00:18:00Z"
+        },
+        {
+          "id": "style_002",
+          "name": "Cyberpunk Future",
+          "description": "Futuristic cyberpunk with neon colors and tech",
+          "timestamp": "2025-08-31T00:19:00Z"
+        },
+        {
+          "id": "style_003",
+          "name": "Documentary Realism",
+          "description": "Authentic documentary style with natural lighting",
+          "timestamp": "2025-08-31T00:20:00Z"
+        },
+        {
+          "id": "style_004",
+          "name": "Vintage Retro",
+          "description": "Period-appropriate vintage aesthetic",
+          "timestamp": "2025-08-31T00:21:00Z"
+        },
+        {
+          "id": "style_005",
+          "name": "High Fashion Commercial",
+          "description": "Luxury fashion aesthetic with perfect lighting",
+          "timestamp": "2025-08-31T00:22:00Z"
+        }
+      ]
+    },
+    "technical_specs": {
+      "file_path": "json_prompts/technical_specs/quality_and_formats.json",
+      "category": "Technical Specifications",
+      "prompts": [
+        {
+          "id": "tech_001",
+          "name": "Resolution and Format Standards",
+          "description": "Professional resolution and format specifications",
+          "timestamp": "2025-08-31T00:23:00Z"
+        },
+        {
+          "id": "tech_002",
+          "name": "Color Science and Grading",
+          "description": "Professional color space and grading specifications",
+          "timestamp": "2025-08-31T00:24:00Z"
+        },
+        {
+          "id": "tech_003",
+          "name": "Audio Technical Specifications",
+          "description": "Professional audio specifications and quality parameters",
+          "timestamp": "2025-08-31T00:25:00Z"
+        },
+        {
+          "id": "tech_004",
+          "name": "Compression and Delivery",
+          "description": "Compression standards and delivery optimization",
+          "timestamp": "2025-08-31T00:26:00Z"
+        }
+      ]
+    },
+    "visual_effects": {
+      "file_path": "json_prompts/visual_effects/advanced_vfx.json",
+      "category": "Visual Effects",
+      "prompts": [
+        {
+          "id": "vfx_001",
+          "name": "Particle System Effects",
+          "description": "Dynamic particle-based effects like smoke and fire",
+          "timestamp": "2025-08-31T00:27:00Z"
+        },
+        {
+          "id": "vfx_002",
+          "name": "Dynamic Weather Effects",
+          "description": "Realistic weather phenomena and atmospheric effects",
+          "timestamp": "2025-08-31T00:28:00Z"
+        },
+        {
+          "id": "vfx_003",
+          "name": "Holographic and Digital Effects",
+          "description": "Futuristic digital interfaces and holograms",
+          "timestamp": "2025-08-31T00:29:00Z"
+        },
+        {
+          "id": "vfx_004",
+          "name": "Transformation and Morphing",
+          "description": "Object transformations and morphing effects",
+          "timestamp": "2025-08-31T00:30:00Z"
+        },
+        {
+          "id": "vfx_005",
+          "name": "Light Rays and Atmospheric Beams",
+          "description": "Volumetric light beams and atmospheric lighting",
+          "timestamp": "2025-08-31T00:31:00Z"
+        }
+      ]
+    }
+  },
+  "usage_guidelines": {
+    "file_organization": {
+      "category_separation": "Each category has its own dedicated folder",
+      "timestamp_tracking": "All prompts include creation and update timestamps",
+      "version_control": "Each file maintains version information",
+      "cross_referencing": "Prompts can be combined across categories"
+    },
+    "prompt_selection": {
+      "by_category": "Browse by main category (cinematography, lighting, etc.)",
+      "by_use_case": "Select based on specific project requirements",
+      "by_complexity": "Choose appropriate complexity level for project",
+      "by_timestamp": "Find recently created or updated prompts"
+    },
+    "customization_approach": {
+      "parameter_modification": "Adjust parameters within prompt structures",
+      "combination_strategies": "Combine elements from multiple prompts",
+      "platform_optimization": "Adapt technical specs for target platforms",
+      "brand_integration": "Incorporate brand-specific requirements"
+    }
+  },
+  "update_schedule": {
+    "regular_updates": "Monthly addition of new prompt templates",
+    "version_tracking": "Semantic versioning for all changes",
+    "community_feedback": "Integration of user suggestions and improvements",
+    "platform_evolution": "Updates based on Veo 3 capability improvements"
+  },
+  "technical_notes": {
+    "json_format": "All files follow standardized JSON schema",
+    "cross_compatibility": "Prompts designed for easy integration",
+    "scalability": "Structure supports unlimited prompt additions",
+    "maintainability": "Clear organization for easy updates and modifications"
+  },
+  "quick_start_recommendations": {
+    "beginners": [
+      "cinematography/professional_shots.json - Basic shot compositions",
+      "lighting/professional_setups.json - Standard lighting techniques",
+      "technical_specs/quality_and_formats.json - Essential technical parameters"
+    ],
+    "intermediate": [
+      "camera_movements/advanced_movements.json - Dynamic camera work",
+      "styles_genres/cinematic_styles.json - Aesthetic and genre styling",
+      "audio/advanced_integration.json - Professional audio integration"
+    ],
+    "advanced": [
+      "visual_effects/advanced_vfx.json - Complex visual effects",
+      "All categories combined for comprehensive productions"
+    ]
+  }
+}

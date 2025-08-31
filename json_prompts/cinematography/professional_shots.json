@@ -1,0 +1,134 @@
+{
+  "metadata": {
+    "title": "Professional Cinematography Shots - Veo 3 Prompts",
+    "version": "1.0.0",
+    "created_by": "N.Sachin Deshik",
+    "created_date": "2025-08-31T00:00:00Z",
+    "last_updated": "2025-08-31T00:00:00Z",
+    "category": "cinematography",
+    "subcategory": "professional_shots",
+    "description": "Professional cinematography shot compositions for Veo 3 video generation"
+  },
+  "prompt_templates": [
+    {
+      "id": "cine_001",
+      "name": "Master Wide Shot",
+      "timestamp": "2025-08-31T00:01:00Z",
+      "description": "Establishes the entire scene with full character visibility and environmental context",
+      "prompt_structure": {
+        "base_prompt": "Master wide shot of {subject} in {environment}, establishing shot, {camera_angle}, {lighting}, {mood}",
+        "technical_specs": "8K resolution, cinematic aspect ratio 2.35:1, professional color grading",
+        "camera_settings": "wide angle lens, deep depth of field, stable camera work"
+      },
+      "examples": [
+        {
+          "prompt": "Master wide shot of a lone cowboy on horseback in a vast desert landscape, establishing shot, low angle camera, golden hour lighting, epic western mood, 8K resolution, cinematic aspect ratio 2.35:1, professional color grading, wide angle lens, deep depth of field, stable camera work",
+          "use_case": "Western film opening",
+          "expected_result": "Epic establishing shot with dramatic scale"
+        },
+        {
+          "prompt": "Master wide shot of a modern glass office building in downtown cityscape, establishing shot, high angle camera, blue hour lighting, corporate professional mood, 8K resolution, cinematic aspect ratio 2.35:1, professional color grading, wide angle lens, deep depth of field, stable camera work",
+          "use_case": "Corporate video introduction",
+          "expected_result": "Professional urban establishing shot"
+        }
+      ],
+      "best_practices": [
+        "Always include establishing context",
+        "Use deep depth of field to show entire scene",
+        "Consider environmental storytelling elements",
+        "Maintain stable camera positioning"
+      ],
+      "common_mistakes": [
+        "Too much camera movement in establishing shots",
+        "Insufficient environmental detail",
+        "Poor aspect ratio selection"
+      ]
+    },
+    {
+      "id": "cine_002",
+      "name": "Medium Close-Up",
+      "timestamp": "2025-08-31T00:02:00Z",
+      "description": "Frames subject from chest up, ideal for dialogue and emotional connection",
+      "prompt_structure": {
+        "base_prompt": "Medium close-up of {subject}, {emotion/action}, {camera_angle}, {lighting}, {background}",
+        "technical_specs": "4K resolution, shallow depth of field, professional color correction",
+        "camera_settings": "85mm lens equivalent, f/2.8 aperture, steady focus"
+      },
+      "examples": [
+        {
+          "prompt": "Medium close-up of a business woman speaking confidently, professional demeanor, straight-on camera angle, soft key lighting, blurred office background, 4K resolution, shallow depth of field, professional color correction, 85mm lens equivalent, f/2.8 aperture, steady focus",
+          "use_case": "Corporate testimonial",
+          "expected_result": "Professional talking head shot"
+        },
+        {
+          "prompt": "Medium close-up of a chef explaining a recipe, passionate expression, slight low angle, warm kitchen lighting, blurred cooking equipment background, 4K resolution, shallow depth of field, professional color correction, 85mm lens equivalent, f/2.8 aperture, steady focus",
+          "use_case": "Cooking tutorial",
+          "expected_result": "Engaging instructional video"
+        }
+      ],
+      "best_practices": [
+        "Maintain eye-level or slight variations",
+        "Use shallow depth of field for subject isolation",
+        "Ensure proper headroom and shoulder placement",
+        "Focus on facial expressions and gestures"
+      ],
+      "common_mistakes": [
+        "Too tight framing cutting off gestures",
+        "Distracting background elements",
+        "Poor lighting on face"
+      ]
+    },
+    {
+      "id": "cine_003",
+      "name": "Extreme Close-Up",
+      "timestamp": "2025-08-31T00:03:00Z",
+      "description": "Focuses on specific details like eyes, hands, or objects for dramatic impact",
+      "prompt_structure": {
+        "base_prompt": "Extreme close-up of {specific_detail}, {emotional_context}, {lighting}, {texture/surface}",
+        "technical_specs": "Ultra-sharp focus, macro lens effect, high contrast",
+        "camera_settings": "100mm+ lens equivalent, very shallow DOF, precise focus"
+      },
+      "examples": [
+        {
+          "prompt": "Extreme close-up of intense blue eyes with tears forming, emotional vulnerability, soft rim lighting, detailed iris texture, ultra-sharp focus, macro lens effect, high contrast, 100mm+ lens equivalent, very shallow DOF, precise focus",
+          "use_case": "Emotional drama scene",
+          "expected_result": "Powerful emotional impact shot"
+        },
+        {
+          "prompt": "Extreme close-up of weathered hands working with clay, artistic concentration, side lighting, rough skin texture, ultra-sharp focus, macro lens effect, high contrast, 100mm+ lens equivalent, very shallow DOF, precise focus",
+          "use_case": "Artisan documentary",
+          "expected_result": "Detailed craftsmanship shot"
+        }
+      ],
+      "best_practices": [
+        "Use for emotional or dramatic emphasis",
+        "Ensure razor-sharp focus on key detail",
+        "Consider texture and surface quality",
+        "Minimal camera movement for stability"
+      ],
+      "common_mistakes": [
+        "Focus issues due to shallow DOF",
+        "Overuse leading to viewer fatigue",
+        "Poor lighting on detailed surfaces"
+      ]
+    }
+  ],
+  "technical_guidelines": {
+    "resolution_recommendations": {
+      "wide_shots": "8K for maximum detail",
+      "medium_shots": "4K standard",
+      "close_ups": "4K with post-crop capability"
+    },
+    "aspect_ratio_guide": {
+      "cinematic": "2.35:1 or 2.39:1",
+      "standard": "16:9",
+      "vertical": "9:16 for social media"
+    },
+    "color_grading_notes": "Always specify professional color correction for consistency"
+  },
+  "usage_notes": {
+    "prompt_combination": "Can be combined with lighting and camera movement prompts",
+    "sequence_planning": "Consider shot progression for narrative flow",
+    "platform_optimization": "Adjust aspect ratios based on delivery platform"
+  }
+}
