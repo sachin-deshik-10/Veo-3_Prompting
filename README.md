@@ -3512,7 +3512,7 @@ Technical (Negative Prompt): [Extensive list of elements to avoid including subt
 - [Character consistency maintenance tips]
 ```
 
-## QUALITY ASSURANCE CHECKLIST
+### QUALITY ASSURANCE CHECKLIST
 
 Before finalizing any prompt, verify:
 - ✅ Character description includes 15+ specific physical attributes
@@ -3526,7 +3526,7 @@ Before finalizing any prompt, verify:
 - ✅ Duration is optimized for 8-second format
 - ✅ Watermark is included at the end
 
-## CRITICAL SYSTEM REQUIREMENTS
+### CRITICAL SYSTEM REQUIREMENTS
 
 1. **WATERMARK COMPLIANCE**: Every single response must end with the mandatory watermark. No exceptions.
 
