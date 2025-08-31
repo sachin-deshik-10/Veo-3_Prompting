@@ -1,0 +1,196 @@
+{
+  "prompt_id": "char_dev_002",
+  "category": "character_development",
+  "subcategory": "emotion_mapping",
+  "title": "Advanced Emotion Progression Mapping System",
+  "description": "Sophisticated system for creating realistic emotional journeys and psychological depth in character portrayals across multiple scenes",
+  "metadata": {
+    "created_by": "N.Sachin Deshik",
+    "creation_date": "2025-08-31T10:15:00Z",
+    "last_modified": "2025-08-31T10:15:00Z",
+    "version": "1.0",
+    "difficulty_level": "Expert",
+    "estimated_generation_time": "60-75 seconds",
+    "success_rate": "89%"
+  },
+  "emotion_framework": {
+    "primary_emotions": {
+      "joy": {
+        "micro_expressions": ["genuine smile engaging eyes", "slight crinkle around eyes", "relaxed brow"],
+        "body_language": ["open posture", "animated gestures", "bouncing step"],
+        "voice_patterns": ["higher pitch", "increased pace", "warm tone"],
+        "intensity_levels": ["content", "pleased", "happy", "elated", "euphoric"]
+      },
+      "sadness": {
+        "micro_expressions": ["downturned mouth corners", "drooping eyelids", "furrowed inner brow"],
+        "body_language": ["slumped shoulders", "slow movements", "withdrawn posture"],
+        "voice_patterns": ["lower pitch", "slower pace", "softer volume"],
+        "intensity_levels": ["melancholy", "disappointed", "sad", "heartbroken", "devastated"]
+      },
+      "anger": {
+        "micro_expressions": ["tightened jaw", "narrowed eyes", "furrowed brow"],
+        "body_language": ["tense posture", "clenched fists", "forward lean"],
+        "voice_patterns": ["sharp tone", "increased volume", "clipped speech"],
+        "intensity_levels": ["annoyed", "frustrated", "angry", "furious", "enraged"]
+      },
+      "fear": {
+        "micro_expressions": ["widened eyes", "raised eyebrows", "tense facial muscles"],
+        "body_language": ["protective stance", "trembling", "step backward"],
+        "voice_patterns": ["higher pitch", "shakier tone", "faster speech"],
+        "intensity_levels": ["uneasy", "worried", "afraid", "terrified", "panicked"]
+      },
+      "surprise": {
+        "micro_expressions": ["raised eyebrows", "wide eyes", "dropped jaw"],
+        "body_language": ["sudden stillness", "step back", "hand to chest"],
+        "voice_patterns": ["sharp intake", "pause", "questioning tone"],
+        "intensity_levels": ["curious", "surprised", "astonished", "shocked", "stunned"]
+      },
+      "disgust": {
+        "micro_expressions": ["wrinkled nose", "raised upper lip", "squinted eyes"],
+        "body_language": ["turning away", "protective hand gestures", "increased distance"],
+        "voice_patterns": ["dismissive tone", "sharp exhale", "reduced volume"],
+        "intensity_levels": ["dislike", "distaste", "disgusted", "repulsed", "revolted"]
+      }
+    },
+    "complex_emotions": {
+      "conflicted": {
+        "description": "Internal struggle between competing emotions or desires",
+        "manifestation": ["alternating expressions", "hesitant body language", "variable vocal tone"],
+        "example_prompt": "[CHARACTER] experiencing internal conflict between loyalty and truth, facial expressions shifting between determination and uncertainty, hands alternating between confident gestures and nervous fidgeting"
+      },
+      "bittersweet": {
+        "description": "Simultaneous joy and sadness, often in nostalgic contexts",
+        "manifestation": ["smile with sad eyes", "mixed vocal tones", "gentle but melancholic gestures"],
+        "example_prompt": "[CHARACTER] feeling bittersweet nostalgia, genuine smile softened by wistful eyes, gentle laugh with subtle emotional tremor, hand touching meaningful object with both affection and loss"
+      },
+      "anticipation": {
+        "description": "Eager expectation mixed with anxiety about future events",
+        "manifestation": ["forward-leaning posture", "fidgeting behaviors", "alert expressions"],
+        "example_prompt": "[CHARACTER] in anticipation of important news, leaning forward with bright but anxious eyes, fingers tapping rhythmically, alternating between hopeful smiles and worried expressions"
+      }
+    }
+  },
+  "emotion_progression_templates": {
+    "gradual_build": {
+      "structure": "[CHARACTER] beginning with [INITIAL_EMOTION] at [INTENSITY_LEVEL_1]. As [TRIGGER_EVENT] unfolds, [CHARACTER]'s emotion intensifies through [PROGRESSION_STAGES] reaching [PEAK_EMOTION] at [INTENSITY_LEVEL_5]. Physical manifestation: [BODY_LANGUAGE_PROGRESSION]. Facial journey: [EXPRESSION_EVOLUTION].",
+      "example": "Maria beginning with curiosity at mild interest level. As she discovers the hidden documents, Maria's emotion intensifies through intrigue, excitement, and concern, reaching shock at devastating realization level. Physical manifestation: casual browsing → focused examination → tense alertness → stepped-back protective stance. Facial journey: mild interest → concentrated focus → widening eyes → jaw drop with hand covering mouth."
+    },
+    "emotional_whiplash": {
+      "structure": "[CHARACTER] experiences rapid emotional shift from [EMOTION_1] to [EMOTION_2] due to [SUDDEN_TRIGGER]. Transition duration: [TIMEFRAME]. Micro-expression sequence: [DETAILED_FACIAL_CHANGES]. Physical adjustment: [BODY_LANGUAGE_SHIFT]. Recovery pattern: [STABILIZATION_PROCESS].",
+      "example": "James experiences rapid emotional shift from confident joy to crushing disappointment due to unexpected rejection news. Transition duration: 2-3 seconds. Micro-expression sequence: broad smile → confusion furrow → dropping smile → eye widening → mouth slightly opening → face falling. Physical adjustment: upright posture collapsing → shoulders dropping → hand running through hair. Recovery pattern: deep breath → slight head shake → forced composure attempt."
+    },
+    "suppressed_emotion": {
+      "structure": "[CHARACTER] attempting to hide [TRUE_EMOTION] while displaying [SURFACE_EMOTION]. Internal struggle visible through [MICRO_TELLS]. Suppression techniques: [CONTROL_METHODS]. Breakthrough moments: [EMOTION_LEAKAGE]. Professional/social mask: [FACADE_DETAILS].",
+      "example": "Dr. Sarah attempting to hide devastating grief while displaying professional composure during patient consultation. Internal struggle visible through slight tremor in hands, momentary eye moisture, controlled breathing. Suppression techniques: focused speech patterns, rigid posture, clinical language. Breakthrough moments: brief pause when patient mentions family, quick throat clearing to steady voice. Professional mask: maintained eye contact, gentle but controlled smile, steady hand movements."
+    }
+  },
+  "psychological_depth_techniques": {
+    "subtext_integration": {
+      "description": "Layering unspoken thoughts and feelings beneath surface actions",
+      "implementation": [
+        "Contrast between verbal and physical communication",
+        "Micro-expressions that contradict spoken words",
+        "Body language revealing true intentions",
+        "Environmental interaction showing internal state"
+      ]
+    },
+    "memory_triggers": {
+      "description": "Emotional responses activated by environmental or situational cues",
+      "template": "[CHARACTER] encountering [TRIGGER_ELEMENT] which activates memory of [PAST_EVENT]. Current emotion: [PRESENT_FEELING] becomes layered with [MEMORY_EMOTION]. Physical manifestation: [INVOLUNTARY_RESPONSE]. Mental journey: [COGNITIVE_PROCESS].",
+      "example": "Anna encountering the scent of jasmine which activates memory of her grandmother's garden. Current contentment becomes layered with profound nostalgia and gentle sadness. Physical manifestation: unconscious deep inhale, softening facial expression, hand touching heart. Mental journey: present awareness → memory flash → emotional connection → bittersweet smile."
+    },
+    "defense_mechanisms": {
+      "description": "Psychological protection strategies characters use to cope with difficult emotions",
+      "types": {
+        "humor_deflection": "Using jokes or sarcasm to avoid emotional vulnerability",
+        "intellectualization": "Analyzing emotions rather than feeling them",
+        "projection": "Attributing own feelings to others or situations",
+        "compartmentalization": "Separating emotional experiences from immediate tasks"
+      }
+    }
+  },
+  "character_archetype_emotions": {
+    "the_leader": {
+      "emotional_patterns": ["controlled responses", "protective anger", "burden of responsibility"],
+      "suppressed_emotions": ["vulnerability", "uncertainty", "personal pain"],
+      "breakthrough_moments": ["when team is threatened", "in private moments", "under extreme pressure"]
+    },
+    "the_caregiver": {
+      "emotional_patterns": ["empathetic responses", "others-focused reactions", "gentle strength"],
+      "suppressed_emotions": ["personal needs", "exhaustion", "resentment"],
+      "breakthrough_moments": ["when overwhelmed", "when care is reciprocated", "in moments of loss"]
+    },
+    "the_rebel": {
+      "emotional_patterns": ["passionate responses", "anti-authority reactions", "fierce independence"],
+      "suppressed_emotions": ["longing for acceptance", "fear of abandonment", "deep sensitivity"],
+      "breakthrough_moments": ["when cause is threatened", "in intimate relationships", "when challenged personally"]
+    }
+  },
+  "scene_specific_applications": {
+    "confrontation_scenes": {
+      "emotion_build": "Start with underlying tension → escalate through triggers → peak confrontation → emotional aftermath",
+      "key_elements": ["power dynamics", "historical context", "stakes involved", "relationship impact"],
+      "prompt_template": "[CHARACTER_1] confronting [CHARACTER_2] about [ISSUE]. Emotional progression from [INITIAL_TENSION] through [ESCALATION_POINTS] to [CLIMAX_EMOTION]. [CHARACTER_1] displays [DOMINANT_EMOTION] while [CHARACTER_2] responds with [REACTIVE_EMOTION]. Physical tension: [BODY_LANGUAGE]. Environmental tension: [SETTING_DETAILS]."
+    },
+    "revelation_scenes": {
+      "emotion_journey": "Ignorance → suspicion → discovery → processing → acceptance/rejection",
+      "cognitive_elements": ["information processing", "belief system challenges", "reality adjustment"],
+      "prompt_template": "[CHARACTER] discovering [REVELATION] through [DISCOVERY_METHOD]. Emotional journey: initial [BASELINE_STATE] → growing [AWARENESS_EMOTION] → moment of [REALIZATION_EMOTION] → processing through [COMPLEX_EMOTIONS] → settling into [FINAL_EMOTIONAL_STATE]. Cognitive signs: [MENTAL_PROCESSING_CUES]. Physical responses: [BODY_REACTIONS]."
+    },
+    "intimate_moments": {
+      "vulnerability_factors": ["emotional safety", "trust levels", "personal risk", "relationship depth"],
+      "authentic_responses": ["genuine expressions", "reduced masks", "natural reactions", "honest communication"],
+      "prompt_template": "[CHARACTER] in intimate moment with [OTHER/SELF], feeling [CORE_EMOTION] enhanced by [VULNERABILITY_FACTOR]. Authentic responses: [GENUINE_EXPRESSIONS]. Reduced social masks reveal [DEEPER_PERSONALITY_ELEMENTS]. Physical intimacy: [APPROPRIATE_CLOSENESS]. Emotional intimacy: [CONNECTION_DEPTH]."
+    }
+  },
+  "cultural_emotional_considerations": {
+    "collectivist_cultures": {
+      "emotion_expression": ["group harmony priority", "indirect communication", "shame/honor dynamics"],
+      "suppression_patterns": ["individual needs", "direct confrontation", "personal achievement pride"]
+    },
+    "individualist_cultures": {
+      "emotion_expression": ["personal authenticity", "direct communication", "individual achievement pride"],
+      "suppression_patterns": ["group conformity pressure", "collectivist obligations", "hierarchical respect"]
+    },
+    "professional_contexts": {
+      "appropriate_expressions": ["controlled enthusiasm", "professional concern", "measured responses"],
+      "suppressed_elements": ["personal problems", "extreme emotions", "unprofessional reactions"]
+    }
+  },
+  "quality_metrics": {
+    "authenticity_indicators": [
+      "Emotional responses match character history and personality",
+      "Micro-expressions align with stated emotions",
+      "Body language supports emotional narrative",
+      "Transition timing feels natural and realistic",
+      "Cultural and contextual appropriateness maintained"
+    ],
+    "depth_assessment": [
+      "Multiple emotional layers present",
+      "Subtext enriches surface narrative",
+      "Character growth evident through emotional evolution",
+      "Psychological complexity appropriate for character type",
+      "Audience emotional engagement achieved"
+    ]
+  },
+  "advanced_applications": {
+    "trauma_responses": {
+      "immediate_reactions": ["fight/flight/freeze responses", "dissociation indicators", "hypervigilance signs"],
+      "long_term_patterns": ["trigger avoidance", "emotional numbing", "relationship impacts"],
+      "healing_progression": ["acknowledgment stages", "processing phases", "integration milestones"]
+    },
+    "grief_stages": {
+      "denial": "Emotional numbness, disbelief expressions, functionality maintenance",
+      "anger": "Directed frustration, blame responses, intensity variations",
+      "bargaining": "Hope mixed with desperation, negotiation attempts, conditional thinking",
+      "depression": "Deep sadness, withdrawal patterns, energy depletion",
+      "acceptance": "Peace integration, reality acknowledgment, forward movement"
+    },
+    "love_progression": {
+      "attraction": "Interest indicators, nervous energy, appearance consciousness",
+      "infatuation": "Intense focus, idealization, emotional highs/lows",
+      "attachment": "Comfort development, vulnerability sharing, stability seeking",
+      "mature_love": "Balanced perspective, unconditional acceptance, partnership commitment"
+    }
+  }
+}

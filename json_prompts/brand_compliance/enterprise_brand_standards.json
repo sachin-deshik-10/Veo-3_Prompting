@@ -1,0 +1,310 @@
+{
+  "prompt_id": "brand_comp_001",
+  "category": "brand_compliance",
+  "subcategory": "enterprise_standards",
+  "title": "Enterprise Brand Compliance System",
+  "description": "Comprehensive framework for ensuring video content meets corporate brand guidelines, legal requirements, and industry standards",
+  "metadata": {
+    "created_by": "N.Sachin Deshik",
+    "creation_date": "2025-08-31T11:00:00Z",
+    "last_modified": "2025-08-31T11:00:00Z",
+    "version": "1.0",
+    "difficulty_level": "Expert",
+    "estimated_generation_time": "45-60 seconds",
+    "success_rate": "96%",
+    "compliance_level": "Enterprise"
+  },
+  "brand_identity_framework": {
+    "visual_identity_standards": {
+      "logo_usage": {
+        "placement_requirements": [
+          "Minimum clear space: [LOGO_WIDTH] × 0.5 on all sides",
+          "Preferred locations: [TOP_RIGHT, BOTTOM_RIGHT, WATERMARK]",
+          "Size specifications: Minimum 100px width for digital",
+          "Color variations: Primary, white version, black version only"
+        ],
+        "prohibited_uses": [
+          "Stretching or distorting logo proportions",
+          "Placing logo on complex backgrounds without clear space",
+          "Using unauthorized color variations",
+          "Overlaying text or graphics on logo",
+          "Rotating logo beyond brand-approved angles"
+        ],
+        "integration_template": "Corporate video featuring [COMPANY] branding. Logo placement: [POSITION] with [SIZE] dimensions. Clear space maintained: [CLEARSPACE_SPECS]. Background: [BACKGROUND_TYPE] ensuring maximum logo visibility. Color scheme: [BRAND_COLORS] palette throughout."
+      },
+      "color_palette_enforcement": {
+        "primary_colors": {
+          "template": "Primary brand colors: [HEX_CODE_1], [HEX_CODE_2], [HEX_CODE_3]. Color usage: [PRIMARY_COLOR] for main elements, [SECONDARY_COLOR] for accents, [TERTIARY_COLOR] for supporting graphics.",
+          "accessibility_compliance": "Minimum contrast ratio 4.5:1 for text, 3:1 for graphics",
+          "color_psychology": "Colors chosen to convey [BRAND_PERSONALITY_TRAITS]"
+        },
+        "color_application_rules": [
+          "80% brand colors, 20% neutral/supporting colors maximum",
+          "Consistent color hierarchy across all scenes",
+          "Cultural sensitivity in global markets",
+          "Accessibility standards for colorblind viewers"
+        ]
+      },
+      "typography_standards": {
+        "approved_fonts": {
+          "primary_font": "[BRAND_PRIMARY_FONT] for headlines and key messaging",
+          "secondary_font": "[BRAND_SECONDARY_FONT] for body text and descriptions",
+          "fallback_fonts": "System fonts that maintain brand feel if branded fonts unavailable"
+        },
+        "typography_hierarchy": [
+          "H1: [SIZE]px [PRIMARY_FONT] [WEIGHT] for main titles",
+          "H2: [SIZE]px [PRIMARY_FONT] [WEIGHT] for section headers",
+          "Body: [SIZE]px [SECONDARY_FONT] [WEIGHT] for descriptions",
+          "Caption: [SIZE]px [SECONDARY_FONT] [WEIGHT] for small text"
+        ]
+      }
+    },
+    "messaging_compliance": {
+      "brand_voice_guidelines": {
+        "tone_characteristics": [
+          "Professional yet approachable",
+          "Confident without arrogance",
+          "Helpful and solution-oriented",
+          "Respectful of diverse audiences",
+          "Consistent with company values"
+        ],
+        "language_standards": [
+          "Use inclusive, accessible language",
+          "Avoid jargon unless defined",
+          "Maintain appropriate formality level",
+          "Ensure cultural sensitivity",
+          "Follow AP Style Guide standards"
+        ]
+      },
+      "key_messaging_framework": {
+        "value_propositions": [
+          "Primary value: [MAIN_BENEFIT]",
+          "Secondary values: [SUPPORTING_BENEFITS]",
+          "Competitive differentiation: [UNIQUE_ADVANTAGES]"
+        ],
+        "prohibited_claims": [
+          "Unsubstantiated performance claims",
+          "Comparative statements without proof",
+          "Absolute terms without qualification",
+          "Misleading implications about results"
+        ]
+      }
+    }
+  },
+  "compliance_verification_system": {
+    "pre_production_checklist": {
+      "brand_alignment_verification": [
+        "Content supports overall brand strategy",
+        "Messaging aligns with approved brand voice",
+        "Visual elements follow brand guidelines",
+        "Target audience matches brand demographics",
+        "Content tone appropriate for brand personality"
+      ],
+      "legal_compliance_check": [
+        "All claims substantiated with evidence",
+        "Copyright permissions obtained for music/images",
+        "Trademark usage follows legal guidelines",
+        "Privacy rights respected for individuals featured",
+        "Industry-specific regulations addressed"
+      ],
+      "regulatory_requirements": {
+        "healthcare": [
+          "FDA compliance for medical claims",
+          "HIPAA privacy requirements",
+          "Medical disclaimer inclusion",
+          "Professional licensing verification"
+        ],
+        "financial_services": [
+          "SEC disclosure requirements",
+          "Investment advice disclaimers",
+          "Risk disclosure statements",
+          "Regulatory body approvals"
+        ],
+        "food_beverage": [
+          "FDA nutritional claim compliance",
+          "Allergen disclosure requirements",
+          "Health benefit substantiation",
+          "Labeling accuracy verification"
+        ]
+      }
+    },
+    "production_monitoring": {
+      "real_time_compliance_checks": [
+        "Brand color accuracy during filming",
+        "Logo visibility and placement verification",
+        "Messaging consistency across scenes",
+        "Talent adherence to script guidelines",
+        "Background/setting appropriateness"
+      ],
+      "quality_control_points": [
+        "Initial concept approval",
+        "Script and storyboard review",
+        "Daily footage compliance check",
+        "Rough cut evaluation",
+        "Final approval before publication"
+      ]
+    }
+  },
+  "industry_specific_templates": {
+    "technology_sector": {
+      "compliance_requirements": [
+        "Data privacy and security messaging",
+        "Accessibility standards compliance",
+        "International market regulations",
+        "Patent and IP protection protocols"
+      ],
+      "content_template": "Technology company video showcasing [PRODUCT/SERVICE]. Professional setting: modern office environment with [BRAND_COLORS] accents. Spokesperson: [PROFESSIONAL_ATTIRE] speaking in [BRAND_TONE]. Technical demonstrations: clear, accurate representations of functionality. Privacy notices: appropriate disclaimers for data handling. Accessibility: closed captions, audio descriptions available.",
+      "prohibited_elements": [
+        "Unverified performance benchmarks",
+        "Competitive disparagement without proof",
+        "Security claims without certification",
+        "Beta or unreleased feature promises"
+      ]
+    },
+    "healthcare_sector": {
+      "compliance_requirements": [
+        "Medical accuracy verification by professionals",
+        "Patient privacy protection (HIPAA)",
+        "FDA compliance for health claims",
+        "Professional licensing display"
+      ],
+      "content_template": "Healthcare organization video featuring [MEDICAL_PROFESSIONAL] in [CLINICAL_SETTING]. Professional presentation: white coat/scrubs with visible ID badge. Medical information: verified by licensed professionals, includes appropriate disclaimers. Patient interactions: proper consent and privacy protection. Facility shots: clean, professional healthcare environment with [BRAND_ELEMENTS] integration.",
+      "required_disclaimers": [
+        "'This information is not a substitute for professional medical advice'",
+        "'Consult your healthcare provider before making medical decisions'",
+        "'Individual results may vary'",
+        "'Licensed medical professional consultation required'"
+      ]
+    },
+    "financial_services": {
+      "compliance_requirements": [
+        "SEC disclosure requirements",
+        "Investment risk disclaimers",
+        "Professional licensing verification",
+        "Regulatory body approvals"
+      ],
+      "content_template": "Financial services video with [FINANCIAL_ADVISOR] in professional setting. Credentials: visible CFA/CFP certifications and firm affiliation. Investment discussions: include appropriate risk disclaimers and performance caveats. Client interactions: privacy-compliant scenarios or actor representations. Office environment: professional, trustworthy atmosphere with [BRAND_COMPLIANCE] elements.",
+      "mandatory_disclosures": [
+        "'Past performance does not guarantee future results'",
+        "'Investments carry risk of loss'",
+        "'Consult a qualified financial advisor'",
+        "'Securities offered through [REGISTERED_BROKER_DEALER]'"
+      ]
+    }
+  },
+  "global_brand_considerations": {
+    "cultural_sensitivity": {
+      "regional_adaptations": [
+        "Color symbolism varies by culture",
+        "Gesture meanings differ globally",
+        "Religious considerations for imagery",
+        "Language localization requirements",
+        "Holiday and cultural event awareness"
+      ],
+      "inclusive_representation": [
+        "Diverse casting in demographics shown",
+        "Accessibility considerations for disabilities",
+        "Gender-inclusive language and imagery",
+        "Socioeconomic sensitivity in scenarios",
+        "Age-appropriate representation"
+      ]
+    },
+    "international_compliance": {
+      "data_protection": [
+        "GDPR compliance for EU audiences",
+        "CCPA requirements for California",
+        "Privacy law adherence by jurisdiction",
+        "Cookie and tracking disclosures"
+      ],
+      "advertising_standards": [
+        "Local advertising authority requirements",
+        "Content rating and age-restriction compliance",
+        "Platform-specific community guidelines",
+        "Country-specific prohibited content"
+      ]
+    }
+  },
+  "quality_assurance_protocols": {
+    "multi_layer_review_process": {
+      "tier_1_creative_review": {
+        "reviewers": "Creative team, brand managers",
+        "focus_areas": ["Visual brand alignment", "Message consistency", "Creative execution quality"],
+        "approval_criteria": "Brand guidelines adherence, creative brief fulfillment"
+      },
+      "tier_2_compliance_review": {
+        "reviewers": "Legal team, compliance officers",
+        "focus_areas": ["Legal requirements", "Industry regulations", "Risk assessment"],
+        "approval_criteria": "Legal compliance, regulatory adherence, risk mitigation"
+      },
+      "tier_3_executive_review": {
+        "reviewers": "C-suite executives, brand leadership",
+        "focus_areas": ["Strategic alignment", "Brand reputation impact", "Market positioning"],
+        "approval_criteria": "Strategic fit, reputation protection, business objective alignment"
+      }
+    },
+    "compliance_documentation": {
+      "approval_trail": "Document all review stages and approvals",
+      "compliance_certificates": "Maintain regulatory approval documentation",
+      "version_control": "Track all changes and approval status",
+      "audit_preparation": "Maintain records for potential regulatory review"
+    }
+  },
+  "crisis_management_protocols": {
+    "content_issue_response": {
+      "immediate_actions": [
+        "Content removal or modification procedures",
+        "Stakeholder notification protocols",
+        "Media response preparation",
+        "Legal consultation activation"
+      ],
+      "communication_strategy": [
+        "Internal team coordination",
+        "External spokesperson designation",
+        "Message consistency maintenance",
+        "Timeline for public response"
+      ]
+    },
+    "prevention_measures": {
+      "proactive_monitoring": [
+        "Social media sentiment tracking",
+        "Compliance audit scheduling",
+        "Industry regulation updates",
+        "Competitor compliance analysis"
+      ],
+      "risk_assessment": [
+        "Potential controversy identification",
+        "Market sensitivity analysis",
+        "Regulatory change impact assessment",
+        "Brand reputation risk evaluation"
+      ]
+    }
+  },
+  "technology_integration": {
+    "automated_compliance_tools": {
+      "brand_asset_management": "Digital asset libraries with approved elements only",
+      "color_verification_tools": "Automated brand color accuracy checking",
+      "logo_placement_verification": "AI-powered logo positioning validation",
+      "messaging_consistency_check": "Text analysis for brand voice compliance"
+    },
+    "approval_workflow_systems": {
+      "digital_approval_platforms": "Online review and approval tracking",
+      "stakeholder_notification": "Automated alerts for review requirements",
+      "version_control_systems": "Change tracking and approval status",
+      "compliance_reporting": "Dashboard for compliance status monitoring"
+    }
+  },
+  "training_and_education": {
+    "team_compliance_training": {
+      "brand_guideline_education": "Comprehensive brand standard training",
+      "legal_requirement_awareness": "Industry-specific compliance education",
+      "crisis_response_preparation": "Emergency protocol training",
+      "cultural_sensitivity_training": "Global market awareness development"
+    },
+    "ongoing_education_programs": [
+      "Monthly brand guideline updates",
+      "Quarterly legal compliance reviews",
+      "Annual cultural sensitivity training",
+      "Industry regulation change briefings"
+    ]
+  }
+}

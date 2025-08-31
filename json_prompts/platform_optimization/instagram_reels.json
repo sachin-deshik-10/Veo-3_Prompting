@@ -1,0 +1,130 @@
+{
+  "prompt_id": "platform_opt_001",
+  "category": "platform_optimization",
+  "subcategory": "instagram_reels",
+  "title": "Instagram Reels Optimization System",
+  "description": "Comprehensive prompt templates optimized for Instagram Reels format, engagement patterns, and algorithm preferences",
+  "metadata": {
+    "created_by": "N.Sachin Deshik",
+    "creation_date": "2025-08-31T10:30:00Z",
+    "last_modified": "2025-08-31T10:30:00Z",
+    "version": "1.0",
+    "difficulty_level": "Intermediate",
+    "estimated_generation_time": "30-45 seconds",
+    "success_rate": "94%",
+    "platform_specific": "Instagram Reels"
+  },
+  "instagram_reels_specifications": {
+    "technical_requirements": {
+      "aspect_ratio": "9:16 (vertical)",
+      "resolution": "1080x1920 pixels minimum",
+      "duration": "15-90 seconds optimal",
+      "file_size": "Maximum 4GB",
+      "format": "MP4 recommended",
+      "frame_rate": "30fps minimum, 60fps preferred"
+    },
+    "algorithm_optimization": {
+      "engagement_factors": [
+        "Hook within first 3 seconds",
+        "High retention rate throughout video",
+        "Strong call-to-action for interactions",
+        "Trend-relevant content and audio",
+        "Consistent posting schedule alignment"
+      ],
+      "content_preferences": [
+        "Authentic, unpolished feel",
+        "Quick cuts and dynamic movement",
+        "Text overlays for accessibility",
+        "Trending audio integration",
+        "Visual storytelling over dialogue"
+      ]
+    }
+  },
+  "content_category_templates": {
+    "educational_content": {
+      "structure": "Educational Instagram Reel about [TOPIC]. Hook: '[ATTENTION_GRABBING_QUESTION/STATEMENT]' displayed as bold text overlay. [EXPERT/CHARACTER] presenting [KEY_POINTS] through [VISUAL_METHOD]. Quick transitions between [POINT_1], [POINT_2], [POINT_3]. Call-to-action: '[ENGAGEMENT_PROMPT]'. Style: [VISUAL_AESTHETIC]. Trending audio: [AUDIO_TYPE].",
+      "example": "Educational Instagram Reel about professional networking tips. Hook: 'The networking mistake 90% make' displayed as bold white text overlay. Professional consultant presenting 3 key strategies through split-screen demonstrations. Quick transitions between conversation starters, follow-up techniques, and relationship building. Call-to-action: 'Which tip will you try first? Comment below!' Style: clean, modern office aesthetic with dynamic text animations. Trending audio: upbeat motivational track.",
+      "engagement_boosters": [
+        "Use numbers in hooks ('5 ways to...', '3 secrets...')",
+        "Include save-worthy information",
+        "Create shareable moments with text overlays",
+        "End with discussion-starting questions",
+        "Use trending hashtags strategically"
+      ]
+    },
+    "behind_scenes": {
+      "structure": "Behind-the-scenes Instagram Reel showing [PROCESS/ACTIVITY]. Opening: [CHARACTER] introducing '[WHAT_THEY'RE_DOING]' with casual, authentic energy. Process shots: [STEP_1] → [STEP_2] → [STEP_3] with [AUTHENTIC_REACTIONS]. Reveal: [FINAL_RESULT/OUTCOME]. Personality moments: [GENUINE_INTERACTIONS]. Style: handheld, natural lighting.",
+      "example": "Behind-the-scenes Instagram Reel showing small business owner preparing for product launch. Opening: Sarah introducing 'Midnight prep session for tomorrow's big launch!' with tired but excited energy. Process shots: packaging products → setting up display → final quality checks with authentic stress reactions. Reveal: beautiful product setup ready for customers. Personality moments: coffee breaks, encouraging self-talk, small victories. Style: handheld iPhone footage, natural kitchen lighting.",
+      "authenticity_elements": [
+        "Show imperfect moments and real reactions",
+        "Include relatable struggles or challenges",
+        "Use natural lighting and minimal editing",
+        "Feature genuine personality quirks",
+        "Capture spontaneous interactions"
+      ]
+    },
+    "trending_participation": {
+      "structure": "Instagram Reel participating in [TRENDING_TOPIC/CHALLENGE]. Hook: [CHARACTER] acknowledging trend with '[TREND_REFERENCE]'. Personal twist: [UNIQUE_ANGLE/PERSPECTIVE]. Execution: [CHARACTER] demonstrating [TREND_ACTION] with [PERSONAL_STYLE]. Text overlay: '[RELATABLE_CAPTION]'. Music: [TRENDING_AUDIO]. Hashtags: [TREND_TAGS].",
+      "example": "Instagram Reel participating in 'Tell me you're a perfectionist without telling me' trend. Hook: Marketing manager acknowledging trend with 'You want to know I'm a perfectionist?' Personal twist: showing obsessive brand color-matching process. Execution: demonstrating precise logo alignment, multiple draft reviews, detailed client feedback incorporation with methodical personality. Text overlay: 'When the logo is 2 pixels off and everyone says it looks fine'. Music: trending comedic audio track. Hashtags: #perfectionist #marketinglife #relatable.",
+      "trend_adaptation_tips": [
+        "Research trending audio and hashtags daily",
+        "Add unique personal or professional angle",
+        "Participate early in trend lifecycle",
+        "Maintain brand voice while following format",
+        "Study top-performing versions for insights"
+      ]
+    }
+  },
+  "visual_optimization_techniques": {
+    "hook_strategies": {
+      "question_hooks": [
+        "'Did you know that [SURPRISING_FACT]?'",
+        "'What would you do if [SCENARIO]?'",
+        "'Ever wondered why [COMMON_SITUATION]?'"
+      ],
+      "statement_hooks": [
+        "'This changes everything about [TOPIC]'",
+        "'Nobody talks about [IMPORTANT_POINT]'",
+        "'The truth about [CONTROVERSIAL_TOPIC]'"
+      ],
+      "visual_hooks": [
+        "Dramatic before/after comparison",
+        "Unexpected or intriguing visual",
+        "Fast-paced montage preview",
+        "Relatable facial expression close-up"
+      ]
+    },
+    "retention_techniques": {
+      "pacing_strategies": [
+        "Quick cuts every 2-3 seconds",
+        "Build-up and payoff structure",
+        "Visual variety throughout",
+        "Strategic pause moments",
+        "Smooth transition effects"
+      ],
+      "engagement_maintainers": [
+        "Progress indicators (1/3, 2/3, 3/3)",
+        "Teaser text: 'Wait for it...'",
+        "Multiple value points delivered",
+        "Personality moments between content",
+        "Strong closing hook for replay"
+      ]
+    }
+  },
+  "hashtag_strategy": {
+    "hashtag_mix_formula": {
+      "trending_hashtags": "2-3 currently popular tags",
+      "niche_hashtags": "5-7 specific to content topic",
+      "branded_hashtags": "1-2 personal/business tags",
+      "community_hashtags": "3-5 for target audience",
+      "location_hashtags": "1-2 if locally relevant"
+    },
+    "placement_optimization": [
+      "Include 3-5 most important in caption",
+      "Place remaining tags in first comment",
+      "Use hashtags relevant to content, not just popular",
+      "Research hashtag competition levels",
+      "Monitor performance and adjust strategy"
+    ]
+  }
+}

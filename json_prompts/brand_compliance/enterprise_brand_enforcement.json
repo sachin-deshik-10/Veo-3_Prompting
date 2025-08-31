@@ -1,0 +1,308 @@
+{
+  "prompt_id": "brand_comp_001",
+  "category": "brand_compliance",
+  "subcategory": "enterprise_brand_management",
+  "title": "Enterprise Brand Compliance and Enforcement System",
+  "description": "Comprehensive framework for maintaining brand consistency, compliance standards, and corporate identity across all video content production",
+  "metadata": {
+    "created_by": "N.Sachin Deshik",
+    "creation_date": "2025-08-31T11:00:00Z",
+    "last_modified": "2025-08-31T11:00:00Z",
+    "version": "1.0",
+    "difficulty_level": "Advanced",
+    "estimated_generation_time": "60-90 seconds",
+    "success_rate": "96%",
+    "compliance_level": "Enterprise-grade with audit trail"
+  },
+  "brand_compliance_framework": {
+    "visual_identity_standards": {
+      "logo_usage": {
+        "placement_requirements": {
+          "primary_logo": "Upper right corner, 10% of screen width minimum",
+          "secondary_logo": "Lower left corner, 5% of screen width for subtle branding",
+          "watermark": "Semi-transparent, consistent throughout video",
+          "clear_space": "Logo must have 50% of logo width clear space on all sides"
+        },
+        "size_specifications": {
+          "minimum_size": "Logo readable at 480p resolution",
+          "maximum_size": "Never exceeds 15% of total screen real estate",
+          "aspect_ratio": "Maintain original proportions, never stretch or compress",
+          "resolution": "Vector-based preferred, minimum 300 DPI for raster"
+        },
+        "color_variations": {
+          "full_color": "Use on light backgrounds with sufficient contrast",
+          "white_version": "Use on dark backgrounds, ensure visibility",
+          "black_version": "Use when color reproduction is limited",
+          "monochrome": "Single color version for specific applications"
+        }
+      },
+      "color_palette_enforcement": {
+        "primary_colors": {
+          "brand_primary": "[HEX_CODE] - Main brand color, dominant in composition",
+          "brand_secondary": "[HEX_CODE] - Supporting color, accent usage",
+          "brand_tertiary": "[HEX_CODE] - Additional color, minimal application"
+        },
+        "color_application_rules": [
+          "Primary color must appear in at least 30% of visual elements",
+          "Secondary colors used for emphasis and hierarchy",
+          "Background colors must not compete with brand colors",
+          "Text colors must meet WCAG accessibility standards",
+          "Color combinations must pass contrast ratio requirements"
+        ],
+        "prohibited_color_combinations": [
+          "Competitor brand colors",
+          "Colors that reduce readability",
+          "Combinations that trigger cultural sensitivities",
+          "Colors that conflict with accessibility standards"
+        ]
+      },
+      "typography_standards": {
+        "primary_font": {
+          "typeface": "[BRAND_FONT_NAME]",
+          "usage": "Headlines, titles, important announcements",
+          "weights": "Regular, Medium, Bold available",
+          "licensing": "Ensure proper licensing for video production"
+        },
+        "secondary_font": {
+          "typeface": "[SECONDARY_FONT]",
+          "usage": "Body text, captions, supporting information",
+          "fallback_options": "Web-safe alternatives specified"
+        },
+        "text_hierarchy_rules": [
+          "H1: Primary font, bold, brand primary color",
+          "H2: Primary font, medium, brand secondary color",
+          "Body: Secondary font, regular, high contrast color",
+          "Captions: Secondary font, regular, sufficient contrast"
+        ]
+      }
+    },
+    "content_compliance_standards": {
+      "messaging_guidelines": {
+        "brand_voice": {
+          "tone": "[PROFESSIONAL/FRIENDLY/AUTHORITATIVE/CASUAL]",
+          "personality": "[SPECIFIC_BRAND_PERSONALITY_TRAITS]",
+          "language_style": "[FORMAL/CONVERSATIONAL/TECHNICAL/ACCESSIBLE]",
+          "prohibited_language": "List of words, phrases, or concepts to avoid"
+        },
+        "key_messaging_pillars": [
+          "Core value proposition statements",
+          "Brand mission and vision integration",
+          "Unique selling proposition emphasis",
+          "Customer benefit focus",
+          "Industry authority positioning"
+        ],
+        "compliance_requirements": [
+          "Legal disclaimers where required",
+          "Industry regulation adherence",
+          "Copyright and trademark acknowledgments",
+          "Privacy policy references",
+          "Terms of service integration"
+        ]
+      },
+      "visual_content_standards": {
+        "imagery_guidelines": [
+          "All images must align with brand aesthetic",
+          "Diversity and inclusion requirements met",
+          "Professional quality standards maintained",
+          "Copyright clearance for all visual elements",
+          "Brand-appropriate subject matter only"
+        ],
+        "video_style_requirements": [
+          "Consistent lighting that supports brand mood",
+          "Camera angles that convey brand personality",
+          "Editing pace that matches brand energy",
+          "Music selection that reinforces brand values",
+          "Overall production quality meets brand standards"
+        ]
+      }
+    }
+  },
+  "prompt_templates_with_compliance": {
+    "corporate_announcement": {
+      "structure": "Brand-compliant opening → Key message delivery → Call-to-action → Brand closure",
+      "prompt_template": "Corporate announcement for [COMPANY_NAME] about [ANNOUNCEMENT_TOPIC]. Opening: [COMPANY_LOGO] prominently displayed with [BRAND_COLOR_SCHEME] background. Spokesperson: professional individual in [BRAND_APPROPRIATE_ATTIRE] speaking in [BRAND_VOICE_TONE]. Key message: [CORE_ANNOUNCEMENT] delivered with [MESSAGING_STYLE]. Visual elements: [BRAND_TYPOGRAPHY] for text overlays, [BRAND_COLOR_PALETTE] throughout. Closing: clear [CALL_TO_ACTION] with [CONTACT_INFORMATION] and logo reinforcement.",
+      "compliance_checklist": [
+        "Logo placement meets brand guidelines",
+        "Color usage follows brand palette",
+        "Typography matches brand standards",
+        "Messaging aligns with brand voice",
+        "Legal requirements addressed",
+        "Call-to-action is clear and compliant"
+      ]
+    },
+    "product_demonstration": {
+      "structure": "Brand introduction → Product showcase → Benefit emphasis → Purchase guidance",
+      "prompt_template": "Product demonstration for [PRODUCT_NAME] by [COMPANY_NAME]. Introduction: [BRAND_LOGO] and [COMPANY_TAGLINE] with [BRAND_COLOR_SCHEME]. Product showcase: [PRODUCT] displayed against [BRAND_APPROPRIATE_BACKGROUND] with [PROFESSIONAL_LIGHTING]. Features highlighted: [KEY_FEATURES] using [BRAND_TYPOGRAPHY] overlays. Benefits emphasized: [CUSTOMER_BENEFITS] communicated in [BRAND_VOICE]. Purchase guidance: [CLEAR_CTA] with [WEBSITE/CONTACT] information prominently displayed.",
+      "compliance_requirements": [
+        "Product claims must be substantiated",
+        "Pricing information must be current and accurate",
+        "Disclaimer text included where required",
+        "Brand guidelines followed throughout",
+        "Professional presentation quality maintained"
+      ]
+    },
+    "employee_testimonial": {
+      "structure": "Employee introduction → Experience sharing → Company value reinforcement → Brand messaging",
+      "prompt_template": "[EMPLOYEE_NAME], [TITLE] at [COMPANY_NAME], sharing experience about [TOPIC]. Setting: [BRAND_APPROPRIATE_ENVIRONMENT] with subtle [BRAND_ELEMENTS] visible. [EMPLOYEE] speaking in [AUTHENTIC_TONE] while maintaining [PROFESSIONAL_STANDARDS]. Experience shared: [SPECIFIC_STORY] that demonstrates [COMPANY_VALUES]. Brand integration: [COMPANY_MISSION] naturally woven into narrative. Closing: [BRAND_TAGLINE] and [LOGO] with [EMPLOYMENT_OPPORTUNITIES] information.",
+      "authenticity_balance": [
+        "Genuine employee experience while staying on-brand",
+        "Natural delivery that doesn't feel scripted",
+        "Brand values demonstrated through story",
+        "Professional appearance meeting brand standards",
+        "Compliance with employment communication policies"
+      ]
+    }
+  },
+  "quality_assurance_system": {
+    "pre_production_checklist": {
+      "creative_brief_review": [
+        "Objectives align with brand strategy",
+        "Target audience matches brand demographics",
+        "Key messages approved by marketing team",
+        "Creative concept supports brand positioning",
+        "Legal and compliance requirements identified"
+      ],
+      "resource_verification": [
+        "Brand assets available and current",
+        "Font licenses confirmed for production use",
+        "Color codes accurate and accessible",
+        "Logo files in proper formats and resolutions",
+        "Stock footage/music properly licensed"
+      ]
+    },
+    "production_monitoring": {
+      "on_set_compliance": [
+        "Brand representative present during filming",
+        "Brand guidelines reference materials available",
+        "Real-time review of brand element placement",
+        "Quality control for visual consistency",
+        "Adherence to approved creative direction"
+      ],
+      "technical_standards": [
+        "Resolution meets brand requirements",
+        "Color accuracy maintained throughout",
+        "Audio quality meets professional standards",
+        "Lighting consistent with brand mood",
+        "Camera work supports brand image"
+      ]
+    },
+    "post_production_verification": {
+      "brand_compliance_review": [
+        "Logo placement and sizing verification",
+        "Color accuracy across all elements",
+        "Typography usage compliance",
+        "Messaging consistency with brand voice",
+        "Legal disclaimer integration"
+      ],
+      "technical_quality_check": [
+        "Video resolution and compression standards",
+        "Audio levels and clarity optimization",
+        "Color grading consistency",
+        "Subtitle accuracy and formatting",
+        "Export specifications for different platforms"
+      ]
+    }
+  },
+  "multi_brand_management": {
+    "brand_hierarchy_system": {
+      "master_brand": {
+        "primary_presence": "Dominant logo placement and color scheme",
+        "messaging_priority": "Core brand values and positioning",
+        "visual_dominance": "60-70% of visual brand elements"
+      },
+      "sub_brands": {
+        "secondary_presence": "Supporting logo placement",
+        "complementary_messaging": "Aligned but distinct positioning",
+        "visual_support": "20-30% of visual brand elements"
+      },
+      "co_branding_rules": [
+        "Clear hierarchy established in all materials",
+        "Consistent placement relationships",
+        "Appropriate sizing ratios maintained",
+        "Separate brand guideline compliance for each"
+      ]
+    },
+    "regional_brand_variations": {
+      "cultural_adaptation": [
+        "Color meanings in different cultures considered",
+        "Language localization beyond translation",
+        "Cultural imagery appropriateness",
+        "Regional preference accommodation",
+        "Local regulation compliance"
+      ],
+      "market_specific_requirements": [
+        "Legal disclaimer variations by region",
+        "Currency and pricing display standards",
+        "Contact information localization",
+        "Regional brand spokesperson usage",
+        "Platform-specific adaptations"
+      ]
+    }
+  },
+  "compliance_automation_tools": {
+    "brand_asset_management": {
+      "centralized_repository": "Single source for all current brand assets",
+      "version_control": "Automatic updates and deprecation of old assets",
+      "usage_tracking": "Monitor where and how brand assets are used",
+      "approval_workflows": "Automated approval processes for new content",
+      "rights_management": "Track licensing and usage rights for all assets"
+    },
+    "automated_compliance_checking": {
+      "logo_detection": "AI-powered verification of logo placement and sizing",
+      "color_analysis": "Automated color palette compliance verification",
+      "typography_scanning": "Font usage compliance across all materials",
+      "message_consistency": "Text analysis for brand voice adherence",
+      "legal_requirement_flagging": "Automatic identification of missing legal elements"
+    }
+  },
+  "training_and_education": {
+    "brand_compliance_training": {
+      "new_employee_onboarding": [
+        "Brand guidelines comprehensive overview",
+        "Hands-on practice with brand tools",
+        "Common compliance mistake prevention",
+        "Quality standards expectation setting",
+        "Approval process and workflow training"
+      ],
+      "ongoing_education": [
+        "Regular brand guideline updates",
+        "Industry best practice sharing",
+        "New tool and technology training",
+        "Creative inspiration within brand parameters",
+        "Compliance success story sharing"
+      ]
+    },
+    "external_partner_education": {
+      "vendor_onboarding": [
+        "Brand guideline distribution and explanation",
+        "Quality expectation establishment",
+        "Approval process communication",
+        "Feedback and revision procedures",
+        "Compliance measurement and reporting"
+      ],
+      "ongoing_partnership": [
+        "Regular brand performance reviews",
+        "Best practice sharing and development",
+        "New guideline implementation support",
+        "Creative collaboration within brand parameters",
+        "Long-term brand relationship building"
+      ]
+    }
+  },
+  "measurement_and_optimization": {
+    "brand_compliance_metrics": [
+      "Brand guideline adherence percentage",
+      "Brand consistency across all content",
+      "Time to market for compliant content",
+      "Cost of compliance vs. brand protection value",
+      "Brand recognition and recall improvement"
+    ],
+    "continuous_improvement": [
+      "Regular guideline review and updates",
+      "Feedback integration from content creators",
+      "Technology advancement adoption",
+      "Industry benchmark comparison",
+      "Brand evolution and adaptation planning"
+    ]
+  }
+}

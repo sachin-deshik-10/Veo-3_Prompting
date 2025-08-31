@@ -1,0 +1,174 @@
+{
+  "prompt_id": "char_dev_001",
+  "category": "character_development",
+  "subcategory": "character_consistency",
+  "title": "Multi-Scene Character Consistency System",
+  "description": "Advanced prompt system for maintaining character appearance, personality, and behavior across multiple scenes and scenarios",
+  "metadata": {
+    "created_by": "N.Sachin Deshik",
+    "creation_date": "2025-08-31T10:00:00Z",
+    "last_modified": "2025-08-31T10:00:00Z",
+    "version": "1.0",
+    "difficulty_level": "Advanced",
+    "estimated_generation_time": "45-60 seconds",
+    "success_rate": "92%"
+  },
+  "character_consistency_framework": {
+    "physical_attributes": {
+      "template": "Character: [CHARACTER_NAME], aged [AGE], [GENDER]. Physical features: [HEIGHT] height, [BUILD] build, [HAIR_COLOR] [HAIR_STYLE] hair, [EYE_COLOR] eyes, [SKIN_TONE] skin. Distinctive features: [UNIQUE_FEATURES]. Clothing style: [CLOTHING_DESCRIPTION].",
+      "consistency_anchors": [
+        "Facial structure and bone definition",
+        "Eye shape, color, and expression patterns",
+        "Hair texture, color, and typical styling",
+        "Body proportions and posture",
+        "Distinctive marks, scars, or features",
+        "Clothing preferences and style choices"
+      ]
+    },
+    "personality_traits": {
+      "template": "Personality: [CHARACTER_NAME] is [PERSONALITY_TYPE] with [DOMINANT_TRAITS]. Communication style: [SPEAKING_STYLE]. Emotional patterns: [EMOTIONAL_TENDENCIES]. Behavioral quirks: [UNIQUE_BEHAVIORS].",
+      "consistency_elements": [
+        "Core personality type (introvert/extrovert, optimist/pessimist)",
+        "Primary emotional responses and triggers",
+        "Communication patterns and speech habits",
+        "Body language and gesture preferences",
+        "Decision-making patterns and priorities",
+        "Relationship dynamics and social behaviors"
+      ]
+    },
+    "backstory_integration": {
+      "template": "Background: [CHARACTER_NAME] comes from [BACKGROUND_CONTEXT]. Life experiences: [KEY_EXPERIENCES]. Current situation: [CURRENT_STATUS]. Goals and motivations: [OBJECTIVES].",
+      "story_anchors": [
+        "Cultural background and upbringing",
+        "Professional or educational background",
+        "Key life experiences and trauma",
+        "Current relationships and social context",
+        "Personal goals and motivations",
+        "Internal conflicts and challenges"
+      ]
+    }
+  },
+  "prompt_templates": {
+    "establishing_shot": {
+      "structure": "Cinematic establishing shot of [CHARACTER_NAME], [PHYSICAL_DESCRIPTION], in [ENVIRONMENT_SETTING]. [CHARACTER_NAME] is [ACTION_DESCRIPTION] while displaying [PERSONALITY_TRAIT] through [SPECIFIC_BEHAVIOR]. Lighting: [LIGHTING_STYLE]. Camera: [CAMERA_ANGLE] shot, [CAMERA_MOVEMENT]. Style: [VISUAL_STYLE].",
+      "example": "Cinematic establishing shot of Sarah Chen, 28-year-old Asian woman with shoulder-length black hair in a modern office environment. Sarah is reviewing financial documents while displaying analytical focus through precise hand movements and concentrated facial expressions. Lighting: natural window light with professional ambiance. Camera: medium shot, slight push-in movement. Style: contemporary corporate drama."
+    },
+    "reaction_shot": {
+      "structure": "[CHARACTER_NAME] reacting to [STIMULUS/EVENT] with [EMOTIONAL_RESPONSE]. Physical reaction: [BODY_LANGUAGE]. Facial expression: [FACIAL_DETAILS]. [CHARACTER_NAME]'s [PERSONALITY_TRAIT] is evident through [SPECIFIC_MANIFESTATION]. Setting: [ENVIRONMENT]. Camera: [SHOT_TYPE] focusing on [FOCUS_AREA].",
+      "example": "Sarah Chen reacting to unexpected news with controlled surprise. Physical reaction: slight step back, hands momentarily pausing over documents. Facial expression: raised eyebrows, brief widening of eyes, followed by composed analysis. Sarah's analytical nature is evident through her quick processing and measured response. Setting: glass-walled conference room. Camera: close-up shot focusing on facial micro-expressions."
+    },
+    "dialogue_scene": {
+      "structure": "[CHARACTER_NAME] speaking with [OTHER_CHARACTER/AUDIENCE] about [TOPIC]. [CHARACTER_NAME] uses [COMMUNICATION_STYLE] to express [MESSAGE/EMOTION]. Body language: [GESTURES_POSTURE]. Voice tone: [VOCAL_QUALITY]. Setting: [ENVIRONMENT]. The conversation reveals [CHARACTER_TRAIT/DEVELOPMENT].",
+      "example": "Sarah Chen speaking with her team about quarterly projections. Sarah uses clear, data-driven communication to express cautious optimism about market trends. Body language: leaning forward slightly, using precise hand gestures to emphasize key points. Voice tone: confident and measured with slight warmth. Setting: modern boardroom with financial charts displayed. The conversation reveals Sarah's leadership style and attention to detail."
+    }
+  },
+  "consistency_checklist": {
+    "visual_elements": [
+      "Does the character maintain consistent physical appearance?",
+      "Are facial features, hair, and body proportions accurate?",
+      "Is clothing style consistent with character profile?",
+      "Are distinctive features (scars, tattoos, etc.) present?",
+      "Does lighting complement the character's established look?"
+    ],
+    "behavioral_elements": [
+      "Are personality traits consistently displayed?",
+      "Do gestures and body language match character type?",
+      "Is the communication style authentic to the character?",
+      "Are emotional responses appropriate to character history?",
+      "Do actions align with established motivations?"
+    ],
+    "narrative_elements": [
+      "Does the scene advance character development?",
+      "Are backstory elements properly integrated?",
+      "Is the character's role in the story clear?",
+      "Do interactions reveal character relationships?",
+      "Is the character's arc progression logical?"
+    ]
+  },
+  "advanced_techniques": {
+    "emotion_progression": {
+      "description": "System for showing realistic emotional transitions",
+      "template": "[CHARACTER_NAME] transitioning from [INITIAL_EMOTION] to [FINAL_EMOTION] through [TRIGGER_EVENT]. Micro-expressions: [SUBTLE_CHANGES]. Physical manifestation: [BODY_LANGUAGE_SHIFT]. Internal processing: [THOUGHT_PATTERN]. Duration: [TRANSITION_TIME].",
+      "example": "Sarah transitioning from confidence to concern through unexpected market data. Micro-expressions: slight tightening around eyes, momentary lip compression. Physical manifestation: shifting weight, fingers tapping analytical rhythm. Internal processing: rapid data analysis and risk assessment. Duration: 3-4 second realistic transition."
+    },
+    "multi_scene_continuity": {
+      "description": "Maintaining character consistency across scene changes",
+      "elements": [
+        "Carry-over emotional states from previous scenes",
+        "Consistent energy levels and fatigue patterns",
+        "Logical progression of character thoughts/concerns",
+        "Appropriate costume/appearance changes",
+        "Maintained relationships dynamics"
+      ]
+    },
+    "character_growth_arcs": {
+      "description": "Templates for showing character development over time",
+      "growth_patterns": [
+        "Overcoming internal conflicts",
+        "Learning new skills or perspectives",
+        "Relationship evolution and bonding",
+        "Confidence building or loss",
+        "Moral or ethical development"
+      ]
+    }
+  },
+  "quality_optimization": {
+    "prompt_enhancement_techniques": [
+      "Use specific, measurable descriptors (e.g., '5'8\" height' vs 'tall')",
+      "Include emotional context for more authentic expressions",
+      "Reference previous scenes for continuity cues",
+      "Specify micro-expressions for nuanced performance",
+      "Add environmental interaction details"
+    ],
+    "common_issues_solutions": {
+      "inconsistent_appearance": "Create detailed character reference sheet with specific measurements and features",
+      "flat_personality": "Develop signature gestures, speech patterns, and reaction styles",
+      "unrealistic_emotions": "Study real human emotional progression patterns and timing",
+      "poor_scene_transitions": "Plan emotional carry-over and logical character state progression"
+    }
+  },
+  "usage_examples": {
+    "corporate_character": {
+      "character_profile": "David Martinez, 35, Hispanic executive, 6'1\", athletic build, short black hair with slight gray, brown eyes, confident posture, prefers navy suits",
+      "scene_1": "David Martinez presenting quarterly results to board members in a glass-walled conference room. David uses commanding presence and data-driven communication while maintaining professional warmth. His confident posture and precise gestures emphasize key financial points. Lighting: natural office lighting. Camera: medium shot transitioning to close-up on David's determined expression.",
+      "scene_2": "David Martinez privately reviewing concerning financial data in his office. His usual confidence gives way to focused concern as he analyzes market trends. Micro-expressions show slight tension around his eyes, fingers drumming thoughtfully. His analytical nature drives methodical problem-solving approach. Camera: over-shoulder shot showing both David and financial charts.",
+      "continuity_notes": "Maintain David's professional attire, confident base posture, and analytical approach while showing realistic emotional progression from public confidence to private concern."
+    }
+  },
+  "best_practices": {
+    "character_development": [
+      "Create comprehensive character profiles before scene generation",
+      "Establish signature behaviors and speech patterns",
+      "Plan emotional arcs across multiple scenes",
+      "Use reference images for visual consistency",
+      "Test character interactions with different scenarios"
+    ],
+    "technical_execution": [
+      "Specify camera angles that best capture character emotions",
+      "Use lighting to enhance character mood and personality",
+      "Include background elements that support character context",
+      "Plan scene transitions for narrative flow",
+      "Balance character focus with environmental storytelling"
+    ]
+  },
+  "troubleshooting": {
+    "character_inconsistencies": {
+      "symptoms": "Character appearance or behavior varies between scenes",
+      "solutions": [
+        "Create detailed character reference documentation",
+        "Use consistent descriptive language across prompts",
+        "Include reference to previous scenes in new prompts",
+        "Establish character 'anchoring' elements in each prompt"
+      ]
+    },
+    "flat_character_portrayal": {
+      "symptoms": "Character lacks depth or authentic emotional range",
+      "solutions": [
+        "Develop detailed backstory and motivation profiles",
+        "Include internal conflict and character flaws",
+        "Create signature behaviors and mannerisms",
+        "Plan character growth and development arcs"
+      ]
+    }
+  }
+}

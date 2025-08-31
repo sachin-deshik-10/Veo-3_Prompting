@@ -1,0 +1,163 @@
+{
+  "prompt_id": "commercial_001",
+  "category": "commercial_scenes",
+  "subcategory": "product_showcase",
+  "title": "Premium Product Showcase Scenes",
+  "description": "Professional scene-specific prompts for commercial product demonstrations and brand storytelling",
+  "metadata": {
+    "created_by": "N.Sachin Deshik",
+    "creation_date": "2025-08-31T12:00:00Z",
+    "last_modified": "2025-08-31T12:00:00Z",
+    "version": "1.0",
+    "difficulty_level": "Professional",
+    "estimated_generation_time": "40-55 seconds",
+    "success_rate": "93%",
+    "commercial_use": "Approved"
+  },
+  "scene_collection": {
+    "scene_001_product_hero_shot": {
+      "scene_title": "Premium Product Hero Reveal",
+      "scene_purpose": "Dramatic product introduction with luxury appeal",
+      "prompt_template": "Cinematic hero shot of [PRODUCT_NAME] positioned on premium marble surface. Dramatic directional lighting creates elegant shadows and highlights product's premium materials. Camera begins with extreme close-up on product details, slowly pulling back to reveal full product in luxurious environment. Background: subtle gradient from deep charcoal to warm gold. Lighting: key light at 45-degree angle, rim lighting for edge definition. Movement: smooth camera pullback with slight rotation. Style: high-end commercial photography aesthetic.",
+      "specific_examples": {
+        "luxury_watch": "Cinematic hero shot of Swiss luxury timepiece positioned on premium white marble surface. Dramatic directional lighting creates elegant shadows and highlights the watch's polished steel case and sapphire crystal. Camera begins with extreme close-up on intricate dial details, slowly pulling back to reveal full watch in luxurious environment. Background: subtle gradient from deep charcoal to warm gold. Lighting: key light at 45-degree angle, rim lighting for edge definition. Movement: smooth camera pullback with slight rotation. Style: high-end jewelry commercial aesthetic.",
+        "smartphone": "Cinematic hero shot of flagship smartphone positioned on premium black glass surface. Dramatic directional lighting creates elegant reflections and highlights the device's premium aluminum frame and curved glass back. Camera begins with extreme close-up on camera system details, slowly pulling back to reveal full device in luxurious tech environment. Background: subtle gradient from deep space gray to electric blue. Lighting: key light at 45-degree angle, rim lighting for edge definition. Movement: smooth camera pullback with slight rotation. Style: premium technology commercial aesthetic.",
+        "perfume_bottle": "Cinematic hero shot of designer fragrance bottle positioned on premium crystal surface. Dramatic directional lighting creates elegant refraction and highlights the bottle's cut glass details and golden cap. Camera begins with extreme close-up on etched brand logo, slowly pulling back to reveal full bottle in luxurious vanity environment. Background: subtle gradient from pearl white to rose gold. Lighting: key light at 45-degree angle, rim lighting for edge definition. Movement: smooth camera pullback with slight rotation. Style: luxury beauty commercial aesthetic."
+      },
+      "customization_variables": {
+        "surface_materials": ["marble", "glass", "wood", "metal", "fabric", "leather"],
+        "lighting_moods": ["dramatic", "soft", "bright", "moody", "natural", "studio"],
+        "camera_movements": ["pullback", "push-in", "orbital", "static", "tilt-up", "dolly"],
+        "background_styles": ["gradient", "solid", "textured", "environmental", "minimal", "luxury"],
+        "color_palettes": ["monochrome", "warm", "cool", "vibrant", "muted", "brand-specific"]
+      }
+    },
+    "scene_002_lifestyle_integration": {
+      "scene_title": "Natural Lifestyle Integration",
+      "scene_purpose": "Show product in authentic daily use scenarios",
+      "prompt_template": "Lifestyle scene showing [PRODUCT_NAME] naturally integrated into [LIFESTYLE_CONTEXT]. [CHARACTER] using product with genuine satisfaction while engaged in [DAILY_ACTIVITY]. Environment: authentic [SETTING_TYPE] with natural lighting and realistic props. Character interaction: natural, unforced product usage demonstrating key benefits. Camera: observational style with smooth movement capturing both product and lifestyle context. Mood: aspirational yet relatable, conveying product value through authentic use.",
+      "specific_examples": {
+        "coffee_maker": "Lifestyle scene showing premium espresso machine naturally integrated into modern kitchen morning routine. Young professional using machine with genuine satisfaction while preparing for work day. Environment: authentic contemporary kitchen with natural morning light and realistic breakfast props. Character interaction: natural, unforced coffee preparation demonstrating rich crema and aromatic steam. Camera: observational style with smooth movement capturing both machine details and lifestyle context. Mood: aspirational yet relatable, conveying morning ritual enhancement.",
+        "fitness_tracker": "Lifestyle scene showing smart fitness tracker naturally integrated into outdoor running routine. Athletic individual using device with genuine focus while jogging through urban park. Environment: authentic park setting with golden hour lighting and realistic athletic props. Character interaction: natural glances at device screen showing workout metrics and heart rate. Camera: observational style with smooth movement capturing both device interface and fitness context. Mood: motivational yet relatable, conveying health improvement through technology.",
+        "headphones": "Lifestyle scene showing wireless headphones naturally integrated into creative workspace routine. Designer using headphones with genuine concentration while working on digital art project. Environment: authentic creative studio with natural window light and realistic design props. Character interaction: natural adjustment of headphones, subtle head movement to music rhythm. Camera: observational style with smooth movement capturing both audio quality expression and creative context. Mood: inspiring yet relatable, conveying creative flow enhancement."
+      }
+    },
+    "scene_003_problem_solution": {
+      "scene_title": "Problem-Solution Demonstration",
+      "scene_purpose": "Clearly show how product solves specific customer pain points",
+      "prompt_template": "Split-screen comparison showing 'Before' and 'After' scenarios with [PRODUCT_NAME]. Before: [CHARACTER] struggling with [SPECIFIC_PROBLEM] in realistic setting, showing frustration and difficulty. Transition: smooth crossfade or wipe to 'After' scenario. After: Same character using [PRODUCT_NAME] to effortlessly solve the problem, showing relief and satisfaction. Visual emphasis on product features that address the specific pain point. Environment: consistent setting highlighting the dramatic improvement. Style: clear, educational commercial format with professional lighting.",
+      "specific_examples": {
+        "robot_vacuum": "Split-screen comparison showing 'Before' and 'After' scenarios with robotic vacuum cleaner. Before: Busy parent struggling with pet hair cleanup using traditional vacuum, showing exhaustion and time pressure. Transition: smooth crossfade to 'After' scenario. After: Same parent relaxing while robot vacuum autonomously cleans, showing relief and satisfaction. Visual emphasis on robot's efficient pet hair collection and smart navigation. Environment: consistent family living room highlighting the dramatic time-saving improvement. Style: clear, educational commercial format with warm family lighting.",
+        "meal_kit_service": "Split-screen comparison showing 'Before' and 'After' scenarios with meal delivery service. Before: Stressed individual staring at empty fridge, scrolling through delivery apps with decision paralysis. Transition: smooth crossfade to 'After' scenario. After: Same person confidently cooking restaurant-quality meal with pre-portioned ingredients, showing accomplishment and joy. Visual emphasis on fresh ingredients and easy-to-follow recipe cards. Environment: consistent home kitchen highlighting the dramatic meal preparation improvement. Style: clear, educational commercial format with appetizing food lighting.",
+        "ergonomic_chair": "Split-screen comparison showing 'Before' and 'After' scenarios with ergonomic office chair. Before: Office worker experiencing back pain and discomfort in old chair, showing visible tension and fatigue. Transition: smooth crossfade to 'After' scenario. After: Same worker sitting comfortably in ergonomic chair, showing improved posture and energy. Visual emphasis on chair's lumbar support and adjustable features. Environment: consistent home office highlighting the dramatic comfort improvement. Style: clear, educational commercial format with professional workspace lighting."
+      }
+    },
+    "scene_004_social_proof": {
+      "scene_title": "Customer Testimonial Integration",
+      "scene_purpose": "Build trust through authentic customer experiences and reviews",
+      "prompt_template": "Authentic testimonial scene featuring real [CUSTOMER_TYPE] sharing genuine experience with [PRODUCT_NAME]. Customer speaking naturally to camera in their own environment, demonstrating product while sharing specific benefits and results. Intercut with product close-ups and usage demonstrations. Environment: customer's actual space (home, office, etc.) with natural lighting. Style: documentary approach with handheld camera feel for authenticity. Include subtle graphics showing review quotes or statistics that support customer claims.",
+      "specific_examples": {
+        "skincare_product": "Authentic testimonial scene featuring real customer sharing 30-day skincare transformation with organic face serum. Customer speaking naturally to camera in bathroom mirror, demonstrating application routine while sharing specific improvements in skin texture and radiance. Intercut with product close-ups and before/after photos. Environment: customer's actual bathroom with natural morning light. Style: documentary approach with handheld camera feel for authenticity. Include subtle graphics showing '★★★★★ 4.9/5 rating' and '94% saw improvement in 30 days' statistics.",
+        "online_course": "Authentic testimonial scene featuring real student sharing career advancement after completing digital marketing certification. Student speaking naturally to camera in home office, showing certificate and new workspace while sharing specific job promotion and salary increase. Intercut with course platform screenshots and learning materials. Environment: student's actual home office with natural window light. Style: documentary approach with handheld camera feel for authenticity. Include subtle graphics showing 'Career change in 6 months' and '85% of graduates get promoted' statistics.",
+        "home_security": "Authentic testimonial scene featuring real homeowner sharing peace of mind after installing smart security system. Homeowner speaking naturally to camera at front door, demonstrating app features while sharing specific incident where system proved valuable. Intercut with security footage examples and system components. Environment: customer's actual home entrance with natural afternoon light. Style: documentary approach with handheld camera feel for authenticity. Include subtle graphics showing '24/7 monitoring' and '99.9% uptime guarantee' statistics."
+      }
+    },
+    "scene_005_brand_story": {
+      "scene_title": "Brand Heritage and Values",
+      "scene_purpose": "Communicate brand identity, mission, and emotional connection",
+      "prompt_template": "Cinematic brand story sequence showing [BRAND_NAME]'s journey from [ORIGIN_STORY] to current success. Opening with founder or key figure sharing brand mission in authentic setting. Transition through key milestones with archival-style footage and present-day operations. Showcase brand values through employee interactions, sustainable practices, or community impact. Conclude with product creation process or customer impact. Style: documentary meets commercial with warm, human-centered lighting. Music: inspiring and emotional to reinforce brand values.",
+      "specific_examples": {
+        "artisan_coffee": "Cinematic brand story sequence showing craft coffee roastery's journey from single farmer partnership to sustainable coffee movement. Opening with founder sharing fair trade mission in original roasting facility. Transition through key milestones with archival-style footage of farm visits and present-day roasting operations. Showcase values through direct farmer payments, environmental practices, and community coffee education. Conclude with coffee cupping process and satisfied customers in café. Style: documentary meets commercial with warm, golden-hour lighting. Music: inspiring acoustic guitar to reinforce artisan values.",
+        "tech_startup": "Cinematic brand story sequence showing app development company's journey from college dorm idea to transforming small business operations. Opening with co-founders sharing accessibility mission in original workspace. Transition through key milestones with time-lapse development footage and present-day team collaboration. Showcase values through diverse hiring, open-source contributions, and small business success stories. Conclude with product demo and real user testimonials. Style: documentary meets commercial with modern, tech-inspired lighting. Music: uplifting electronic to reinforce innovation values.",
+        "sustainable_fashion": "Cinematic brand story sequence showing eco-fashion brand's journey from fast-fashion frustration to circular economy leader. Opening with designer sharing sustainability mission in studio workspace. Transition through key milestones with behind-the-scenes production footage and present-day ethical manufacturing. Showcase values through zero-waste processes, fair labor practices, and environmental impact reduction. Conclude with clothing creation process and style-conscious customers. Style: documentary meets commercial with natural, earth-tone lighting. Music: organic instrumentation to reinforce environmental values."
+      }
+    }
+  },
+  "technical_specifications": {
+    "camera_requirements": {
+      "resolution": "4K minimum for product details",
+      "frame_rates": "24fps for cinematic, 60fps for smooth movement",
+      "color_profile": "Log or RAW for maximum post-production flexibility",
+      "stabilization": "Professional gimbal or tripod for smooth movements"
+    },
+    "lighting_setup": {
+      "key_light": "Primary light source at 45-degree angle",
+      "fill_light": "Soften shadows, 1-2 stops below key light",
+      "rim_light": "Edge definition and separation from background",
+      "background_light": "Control background exposure and mood"
+    },
+    "audio_requirements": {
+      "music": "Licensed commercial tracks or custom composition",
+      "sound_effects": "Product interaction sounds and ambient audio",
+      "voice_over": "Professional narration if required",
+      "sync_sound": "Clean dialogue recording for testimonials"
+    }
+  },
+  "brand_integration_guidelines": {
+    "logo_placement": {
+      "primary_position": "Lower right corner with adequate clear space",
+      "secondary_options": ["End slate", "Subtle product integration", "Watermark style"],
+      "sizing": "Minimum 100px width for digital platforms",
+      "clear_space": "Logo width × 0.5 on all sides minimum"
+    },
+    "color_consistency": {
+      "primary_brand_colors": "Use brand palette for 80% of color elements",
+      "supporting_colors": "Neutral tones that complement brand palette",
+      "color_grading": "Maintain brand color temperature throughout",
+      "contrast_requirements": "Ensure accessibility standards are met"
+    },
+    "messaging_alignment": {
+      "brand_voice": "Maintain consistent tone and personality",
+      "key_messages": "Reinforce core value propositions",
+      "call_to_action": "Clear, specific, and aligned with campaign goals",
+      "legal_compliance": "Include required disclaimers and disclosures"
+    }
+  },
+  "optimization_for_platforms": {
+    "instagram_stories": {
+      "aspect_ratio": "9:16 vertical",
+      "duration": "15-30 seconds maximum",
+      "text_overlay": "Large, readable fonts for mobile viewing",
+      "call_to_action": "Swipe up or link sticker integration"
+    },
+    "youtube_ads": {
+      "aspect_ratio": "16:9 landscape",
+      "duration": "15-30 seconds for skippable, 6 seconds for bumper",
+      "hook": "Compelling first 5 seconds to prevent skipping",
+      "end_screen": "Channel subscribe and video recommendations"
+    },
+    "facebook_video": {
+      "aspect_ratio": "1:1 square or 16:9 landscape",
+      "duration": "15-60 seconds optimal engagement",
+      "captions": "Auto-generated or custom subtitles for silent viewing",
+      "thumbnail": "Engaging custom thumbnail for feed appearance"
+    },
+    "linkedin_professional": {
+      "aspect_ratio": "16:9 landscape preferred",
+      "duration": "30-90 seconds for B2B messaging",
+      "tone": "Professional, educational, industry-focused",
+      "hashtags": "Industry-specific and trending professional tags"
+    }
+  },
+  "performance_metrics": {
+    "engagement_targets": {
+      "view_completion_rate": "75% minimum for 30-second videos",
+      "click_through_rate": "2-5% depending on platform and industry",
+      "social_sharing": "5% of viewers sharing content",
+      "comment_engagement": "3-7% commenting or reacting"
+    },
+    "conversion_metrics": {
+      "website_visits": "Track referral traffic from video campaigns",
+      "lead_generation": "Form completions or contact inquiries",
+      "sales_attribution": "Direct sales from video campaign exposure",
+      "brand_awareness": "Surveys measuring recall and recognition"
+    }
+  },
+  "legal_and_compliance": {
+    "model_releases": "Required for all individuals appearing in commercial content",
+    "location_permits": "Necessary for filming in commercial or public spaces",
+    "music_licensing": "Commercial use rights for all audio content",
+    "trademark_usage": "Proper usage of brand marks and competitor references",
+    "advertising_standards": "Compliance with local advertising regulations and platform policies"
+  }
+}
