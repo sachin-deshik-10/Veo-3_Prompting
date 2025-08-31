@@ -1,0 +1,101 @@
+{
+  "prompt_id": "lifestyle_001",
+  "category": "lifestyle_wellness",
+  "subcategory": "fitness_health",
+  "title": "Fitness and Health Wellness Scenes",
+  "description": "Comprehensive scene-specific prompts for fitness training, health education, and wellness demonstrations across various exercise disciplines and health promotion activities",
+  "metadata": {
+    "created_by": "N.Sachin Deshik",
+    "creation_date": "2025-08-31T14:30:00Z",
+    "last_modified": "2025-08-31T14:30:00Z",
+    "version": "1.0",
+    "difficulty_level": "Wellness Professional",
+    "estimated_generation_time": "50-65 seconds",
+    "success_rate": "95%",
+    "health_safety": "Required",
+    "motivational_impact": "High"
+  },
+  "scene_collection": {
+    "scene_001_personal_training": {
+      "scene_title": "Personal Fitness Training and Exercise Instruction",
+      "scene_purpose": "Demonstrate proper exercise technique, personal training methods, and fitness goal achievement",
+      "prompt_template": "[FITNESS_TRAINER] guiding client through [WORKOUT_TYPE] with professional instruction in well-equipped fitness facility. Trainer demonstrating proper form while providing motivation, safety guidance, and personalized coaching through expert exercise programming and individual fitness assessment. Training session emphasizing technique mastery, goal achievement, and sustainable fitness habit development. Environment: modern fitness facility with professional equipment, safety features, motivational atmosphere, and proper lighting. Style: professional fitness instruction with emphasis on safety, motivation, and sustainable wellness achievement.",
+      "specific_examples": {
+        "strength_training": "Certified personal trainer guiding weight training session with proper lifting technique in strength training area. Trainer demonstrating compound movement form while providing spotting assistance, progressive overload guidance, and muscle group targeting through evidence-based strength programming and biomechanical expertise. Training session showing proper weightlifting technique, injury prevention protocols, and strength development progression. Environment: strength training area with Olympic bars, free weights, safety equipment, and proper flooring designed for heavy lifting. Style: professional strength training with emphasis on proper form and progressive strength development.",
+        "hiit_conditioning": "High-intensity interval trainer leading metabolic workout with circuit training techniques in functional fitness space. Trainer demonstrating explosive movements while providing intensity modifications, heart rate monitoring, and recovery guidance through scientifically-designed HIIT programming and cardiovascular conditioning expertise. Training session showing interval training benefits, metabolic conditioning, and fitness level adaptation. Environment: functional fitness space with timer systems, cardio equipment, bodyweight exercise areas, and high-energy motivational environment. Style: high-energy conditioning training with emphasis on metabolic fitness and cardiovascular health improvement.",
+        "corrective_exercise": "Movement specialist conducting corrective exercise session with postural improvement focus in rehabilitation-equipped fitness studio. Specialist assessing movement patterns while providing corrective strategies, muscle imbalance addressing, and functional movement restoration through therapeutic exercise approaches and biomechanical analysis. Training session showing movement quality improvement, injury prevention, and functional fitness restoration. Environment: corrective exercise studio with assessment tools, rehabilitation equipment, postural correction aids, and movement analysis systems. Style: therapeutic fitness training with emphasis on movement quality and injury prevention."
+      },
+      "customization_variables": {
+        "training_types": ["strength training", "cardio conditioning", "flexibility training", "functional fitness", "sports performance", "corrective exercise"],
+        "fitness_levels": ["beginner", "intermediate", "advanced", "athlete", "senior fitness", "post-rehabilitation"],
+        "training_environments": ["commercial gym", "home fitness", "outdoor training", "studio setting", "rehabilitation center", "sports facility"],
+        "equipment_usage": ["bodyweight only", "free weights", "machine training", "functional tools", "cardio equipment", "specialized apparatus"],
+        "session_focuses": ["strength building", "weight loss", "endurance improvement", "flexibility enhancement", "injury prevention", "sports preparation"]
+      }
+    },
+    "scene_002_group_fitness": {
+      "scene_title": "Group Fitness Classes and Community Wellness",
+      "scene_purpose": "Show group exercise leadership, community motivation, and inclusive fitness programming",
+      "prompt_template": "[FITNESS_INSTRUCTOR] leading [GROUP_CLASS] with energetic instruction in community fitness setting. Instructor providing clear cuing while maintaining group motivation, safety awareness, and inclusive participation through expert group fitness choreography and community wellness leadership. Class experience emphasizing group energy, accessibility, and fitness enjoyment for diverse participants. Environment: group fitness studio with sound system, appropriate flooring, safety equipment, and community atmosphere. Style: energetic group fitness with emphasis on inclusion, safety, and community wellness enjoyment.",
+      "specific_examples": {
+        "yoga_flow_class": "Certified yoga instructor leading vinyasa flow class with mindful movement guidance in peaceful yoga studio. Instructor demonstrating pose variations while providing breath awareness cuing, modification options, and spiritual wellness integration through traditional yoga philosophy and modern accessibility approaches. Class experience showing yoga practice benefits, stress reduction techniques, and mind-body connection cultivation. Environment: serene yoga studio with natural lighting, yoga props, calming atmosphere, and meditation-supportive ambiance. Style: mindful yoga instruction with emphasis on breath awareness and holistic wellness integration.",
+        "dance_fitness": "Dance fitness instructor leading high-energy Zumba class with choreographed routines in energetic studio environment. Instructor demonstrating dance movements while providing rhythm guidance, cultural celebration, and cardiovascular conditioning through Latin-inspired fitness choreography and community dance celebration. Class experience showing fitness through dance, cultural appreciation, and joyful movement expression. Environment: dance fitness studio with sound system, mirrors, energetic lighting, and celebration-focused atmosphere. Style: celebratory dance fitness with emphasis on joy, cultural appreciation, and cardiovascular health through movement.",
+        "senior_fitness": "Senior fitness specialist leading age-appropriate exercise class with safety modifications in accessible community center. Instructor demonstrating low-impact movements while providing balance training, joint mobility enhancement, and social wellness integration through evidence-based senior fitness programming and age-specific exercise expertise. Class experience showing active aging benefits, fall prevention strategies, and community wellness engagement. Environment: accessible community fitness space with supportive equipment, safety features, comfortable seating, and senior-friendly design. Style: supportive senior fitness with emphasis on active aging and community wellness engagement."
+      }
+    },
+    "scene_003_nutrition_education": {
+      "scene_title": "Nutrition Education and Healthy Lifestyle Coaching",
+      "scene_purpose": "Provide nutrition guidance, meal planning instruction, and healthy eating habit development",
+      "prompt_template": "[NUTRITION_EDUCATOR] teaching [NUTRITION_CONCEPT] with practical application in educational kitchen setting. Educator demonstrating healthy cooking while explaining nutritional science, meal planning strategies, and behavior change techniques through evidence-based nutrition education and lifestyle coaching expertise. Educational session emphasizing practical nutrition knowledge, sustainable habit formation, and holistic health improvement. Environment: demonstration kitchen with healthy ingredients, cooking equipment, educational displays, and comfortable learning space. Style: practical nutrition education with emphasis on sustainable healthy eating and lifestyle integration.",
+      "specific_examples": {
+        "meal_prep_workshop": "Registered dietitian conducting meal preparation workshop with batch cooking techniques in commercial demonstration kitchen. Dietitian preparing balanced meals while explaining portion control, macronutrient balance, and time management strategies through practical nutrition science and sustainable meal planning expertise. Workshop showing efficient meal preparation, nutrition optimization, and healthy eating habit development. Environment: demonstration kitchen with meal prep containers, fresh ingredients, cooking equipment, and nutrition education materials. Style: practical meal planning education with emphasis on sustainability and nutrition optimization.",
+        "sports_nutrition": "Sports nutritionist teaching performance nutrition with athlete fueling strategies in sports medicine facility. Nutritionist explaining timing principles while demonstrating pre-workout nutrition, recovery meal preparation, and hydration strategies through sports science research and athletic performance optimization expertise. Educational session showing performance nutrition application, recovery enhancement, and athletic goal achievement through nutrition. Environment: sports nutrition facility with performance foods, hydration stations, body composition analysis, and athlete education resources. Style: performance-focused nutrition education with emphasis on athletic optimization and recovery enhancement.",
+        "family_nutrition": "Family nutrition educator conducting healthy family cooking class with child-friendly recipes in community kitchen setting. Educator involving families in cooking while explaining age-appropriate nutrition, family meal planning, and healthy habit modeling through family wellness approaches and childhood nutrition expertise. Educational experience showing family nutrition implementation, healthy cooking skills, and positive food relationship development. Environment: family-friendly kitchen with child-safe equipment, healthy ingredients, family seating, and interactive nutrition education tools. Style: family-inclusive nutrition education with emphasis on healthy family habits and positive food relationships."
+      }
+    },
+    "scene_004_mental_wellness": {
+      "scene_title": "Mental Health and Stress Management Practices",
+      "scene_purpose": "Demonstrate stress reduction techniques, mindfulness practices, and mental wellness strategies",
+      "prompt_template": "[WELLNESS_COACH] teaching [STRESS_MANAGEMENT] with practical techniques in calming wellness environment. Coach guiding relaxation methods while explaining stress physiology, coping strategies, and mental resilience building through evidence-based wellness approaches and psychological health expertise. Wellness session emphasizing practical stress management, emotional regulation, and mental health maintenance. Environment: peaceful wellness space with comfortable seating, natural elements, calming atmosphere, and relaxation aids. Style: supportive mental wellness instruction with emphasis on practical stress management and emotional well-being.",
+      "specific_examples": {
+        "meditation_instruction": "Certified meditation teacher leading mindfulness practice with breathing techniques in meditation studio. Teacher guiding breath awareness while explaining meditation benefits, attention training, and present moment cultivation through traditional meditation methods and modern mindfulness science. Practice session showing meditation technique application, stress reduction achievement, and mental clarity development. Environment: meditation studio with comfortable cushions, natural lighting, minimal distractions, and peaceful atmosphere designed for contemplative practice. Style: authentic meditation instruction with emphasis on mindfulness cultivation and stress reduction.",
+        "stress_management_workshop": "Licensed therapist conducting stress management workshop with cognitive behavioral techniques in wellness center group room. Therapist demonstrating coping strategies while explaining stress response physiology, thought pattern recognition, and resilience building through evidence-based psychological approaches and therapeutic expertise. Workshop showing practical stress management tools, emotional regulation skills, and mental health maintenance strategies. Environment: wellness center group room with comfortable seating, educational materials, privacy considerations, and supportive group learning atmosphere. Style: therapeutic wellness education with emphasis on practical mental health tools and resilience building.",
+        "workplace_wellness": "Corporate wellness coordinator teaching workplace stress reduction with desk-based exercises in office conference room. Coordinator demonstrating workplace wellness techniques while explaining stress factor identification, work-life balance strategies, and productivity enhancement through occupational wellness approaches and corporate health expertise. Wellness session showing workplace stress management, productivity improvement, and employee well-being enhancement. Environment: office conference room with ergonomic considerations, workplace wellness materials, professional atmosphere, and employee-focused wellness resources. Style: professional workplace wellness with emphasis on occupational health and productivity optimization through wellness."
+      }
+    },
+    "scene_005_holistic_wellness": {
+      "scene_title": "Holistic Health Practices and Integrated Wellness Approaches",
+      "scene_purpose": "Show comprehensive wellness integration, alternative health practices, and lifestyle medicine applications",
+      "prompt_template": "[HOLISTIC_PRACTITIONER] demonstrating [WELLNESS_PRACTICE] with integrative approach in holistic health center. Practitioner combining multiple wellness modalities while explaining mind-body connection, natural health principles, and lifestyle medicine integration through comprehensive wellness expertise and holistic health philosophy. Wellness experience emphasizing whole-person health, natural healing support, and lifestyle-based wellness achievement. Environment: holistic wellness center with natural materials, calming atmosphere, wellness resources, and integrative health focus. Style: integrative wellness instruction with emphasis on holistic health and natural wellness approaches.",
+      "specific_examples": {
+        "aromatherapy_wellness": "Certified aromatherapist conducting essential oil workshop with therapeutic applications in natural wellness studio. Aromatherapist demonstrating oil blending while explaining therapeutic properties, safety protocols, and wellness integration through traditional aromatherapy knowledge and natural health expertise. Workshop showing essential oil applications, stress reduction benefits, and natural wellness integration. Environment: aromatherapy studio with essential oil collections, blending equipment, natural ventilation, and calming environment designed for scent-based wellness. Style: natural wellness education with emphasis on aromatherapy benefits and safe essential oil integration.",
+        "herbal_medicine": "Herbalist teaching medicinal plant preparation with traditional methods in herb garden classroom. Herbalist preparing herbal remedies while explaining plant medicine principles, safety considerations, and traditional healing wisdom through botanical knowledge and herbal medicine expertise. Educational session showing herbal preparation techniques, plant medicine applications, and traditional wellness approaches. Environment: herb garden classroom with medicinal plants, preparation equipment, educational plant displays, and natural outdoor learning environment. Style: traditional herbal education with emphasis on plant medicine safety and traditional healing wisdom.",
+        "energy_healing": "Reiki master demonstrating energy healing techniques with stress reduction applications in peaceful healing room. Practitioner explaining energy concepts while demonstrating healing touch, relaxation induction, and wellness support through traditional energy healing methods and holistic health approaches. Healing session showing energy work applications, relaxation achievement, and complementary wellness support. Environment: healing room with comfortable treatment table, soft lighting, calming music, and peaceful atmosphere designed for relaxation and wellness. Style: gentle energy healing demonstration with emphasis on relaxation and holistic wellness support."
+      }
+    }
+  },
+  "wellness_progression_frameworks": {
+    "fitness_development_stages": {
+      "beginner_foundation": "Basic movement patterns, safety awareness, habit formation, confidence building",
+      "intermediate_progression": "Skill advancement, intensity increase, goal specification, consistency development",
+      "advanced_optimization": "Performance enhancement, specialized training, leadership development, lifestyle integration"
+    },
+    "behavior_change_support": {
+      "motivation_enhancement": "Goal setting, progress tracking, intrinsic motivation cultivation, obstacle management",
+      "habit_formation": "Routine establishment, environmental design, trigger identification, consistency maintenance",
+      "sustainable_integration": "Lifestyle adaptation, long-term planning, maintenance strategies, continuous improvement"
+    }
+  },
+  "safety_and_professional_standards": {
+    "exercise_safety": {
+      "injury_prevention": "Proper warm-up, correct form instruction, progressive loading, individual assessment",
+      "emergency_preparedness": "First aid readiness, emergency protocols, risk assessment, safety equipment availability",
+      "professional_qualifications": "Certification maintenance, continuing education, scope of practice, ethical guidelines"
+    },
+    "inclusive_wellness": {
+      "accessibility_considerations": "Physical accommodations, cognitive adaptations, cultural sensitivity, economic accessibility",
+      "diverse_population_service": "Age-appropriate programming, cultural competency, special population expertise, inclusive language use",
+      "community_wellness_promotion": "Health equity awareness, community partnership, prevention focus, wellness accessibility"
+    }
+  }
+}
