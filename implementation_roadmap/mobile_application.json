@@ -1,0 +1,143 @@
+{
+  "metadata": {
+    "title": "Mobile Application - Veo 3 Prompts on-the-go",
+    "version": "1.0.0",
+    "created_by": "N.Sachin Deshik",
+    "created_date": "2025-08-31T00:57:00Z",
+    "description": "Native mobile application for iOS and Android with full prompt generation capabilities"
+  },
+  "mobile_features": {
+    "prompt_generation": {
+      "native_interface": [
+        "Touch-optimized prompt builder",
+        "Voice-to-prompt conversion",
+        "Camera-based style extraction",
+        "Gesture-based navigation",
+        "Offline prompt creation"
+      ],
+      "mobile_specific": [
+        "Quick prompt templates",
+        "Swipe-based category selection",
+        "Shake-to-randomize features",
+        "Location-based prompt suggestions",
+        "Photo-inspired prompt generation"
+      ]
+    },
+    "ar_integration": {
+      "augmented_reality": [
+        "Scene visualization before generation",
+        "Virtual camera positioning",
+        "Lighting preview overlay",
+        "Character placement guides",
+        "Real-time style filters"
+      ],
+      "camera_features": [
+        "Live prompt preview",
+        "Style transfer visualization",
+        "Composition guides",
+        "Color palette extraction",
+        "Motion tracking for prompts"
+      ]
+    },
+    "social_features": {
+      "sharing": [
+        "Instant prompt sharing",
+        "Social media integration",
+        "QR code prompt exchange",
+        "Collaborative editing",
+        "Community challenges"
+      ],
+      "discovery": [
+        "Trending prompts feed",
+        "Nearby creators map",
+        "Category exploration",
+        "Personalized recommendations",
+        "Featured collections"
+      ]
+    }
+  },
+  "platform_specific": {
+    "ios": {
+      "native_features": [
+        "Siri Shortcuts integration",
+        "Apple Watch companion",
+        "iOS 17 Interactive Widgets",
+        "Live Activities support",
+        "AirDrop prompt sharing"
+      ],
+      "design_system": "iOS Human Interface Guidelines",
+      "minimum_version": "iOS 15.0",
+      "target_devices": "iPhone 12+ for optimal AR performance"
+    },
+    "android": {
+      "native_features": [
+        "Google Assistant integration",
+        "Android Auto support",
+        "Material You theming",
+        "Adaptive icons",
+        "Tasker automation"
+      ],
+      "design_system": "Material Design 3",
+      "minimum_version": "Android 10 (API 29)",
+      "target_devices": "ARCore compatible devices"
+    }
+  },
+  "offline_capabilities": {
+    "local_storage": [
+      "Core prompt templates",
+      "User favorites",
+      "Recent generations",
+      "Custom templates",
+      "Offline analytics"
+    ],
+    "sync_features": [
+      "Background sync",
+      "Conflict resolution",
+      "Delta updates",
+      "Bandwidth optimization",
+      "Storage management"
+    ]
+  },
+  "performance_optimization": {
+    "loading_strategies": [
+      "Lazy loading of categories",
+      "Image optimization",
+      "Progressive web app features",
+      "Caching strategies",
+      "Bundle size optimization"
+    ],
+    "battery_efficiency": [
+      "Background processing limits",
+      "Energy-efficient algorithms",
+      "Smart refresh policies",
+      "Location services optimization",
+      "Network request batching"
+    ]
+  },
+  "monetization": {
+    "freemium_model": [
+      "Basic prompt generation (free)",
+      "Advanced templates (premium)",
+      "Unlimited generations (subscription)",
+      "Priority processing (paid)",
+      "Custom branding (enterprise)"
+    ],
+    "in_app_purchases": [
+      "Premium prompt packs",
+      "Advanced AI features",
+      "Extended storage",
+      "Priority support",
+      "Exclusive tutorials"
+    ]
+  },
+  "development_approach": {
+    "framework": "React Native with Expo",
+    "state_management": "Redux Toolkit",
+    "navigation": "React Navigation v6",
+    "ui_components": "NativeBase",
+    "backend_integration": "Apollo GraphQL",
+    "analytics": "Firebase Analytics",
+    "crash_reporting": "Sentry",
+    "testing": "Detox for E2E testing"
+  }
+}

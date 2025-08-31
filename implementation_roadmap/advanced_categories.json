@@ -1,0 +1,88 @@
+{
+  "metadata": {
+    "title": "Advanced Prompt Categories - Veo 3 Extensions",
+    "version": "1.0.0",
+    "created_by": "N.Sachin Deshik",
+    "created_date": "2025-08-31T00:41:00Z",
+    "description": "Additional specialized prompt categories for comprehensive video generation"
+  },
+  "new_categories": {
+    "character_development": {
+      "description": "Consistent character creation and development across multiple scenes",
+      "prompts_needed": [
+        "Character consistency templates",
+        "Emotion progression mapping",
+        "Multi-scene character continuity",
+        "Character interaction dynamics",
+        "Aging and transformation effects"
+      ],
+      "timestamp": "2025-08-31T00:41:00Z"
+    },
+    "narrative_structures": {
+      "description": "Story-driven video sequences with narrative flow",
+      "prompts_needed": [
+        "Three-act structure templates",
+        "Tension building techniques",
+        "Plot twist implementations",
+        "Climax and resolution sequences",
+        "Flashback and time manipulation"
+      ],
+      "timestamp": "2025-08-31T00:42:00Z"
+    },
+    "brand_compliance": {
+      "description": "Enterprise-grade brand consistency and compliance",
+      "prompts_needed": [
+        "Brand color enforcement",
+        "Logo integration standards",
+        "Corporate style guidelines",
+        "Compliance verification checklists",
+        "Multi-brand management"
+      ],
+      "timestamp": "2025-08-31T00:43:00Z"
+    },
+    "platform_optimization": {
+      "description": "Platform-specific optimization and formatting",
+      "prompts_needed": [
+        "Instagram Reels optimization",
+        "TikTok trending formats",
+        "YouTube Shorts best practices",
+        "LinkedIn professional standards",
+        "Twitter video specifications"
+      ],
+      "timestamp": "2025-08-31T00:44:00Z"
+    },
+    "accessibility_features": {
+      "description": "Inclusive design and accessibility considerations",
+      "prompts_needed": [
+        "Audio description integration",
+        "Visual accessibility standards",
+        "Subtitle and caption optimization",
+        "Color contrast compliance",
+        "Universal design principles"
+      ],
+      "timestamp": "2025-08-31T00:45:00Z"
+    },
+    "industry_specific": {
+      "description": "Specialized prompts for specific industries",
+      "prompts_needed": [
+        "Healthcare and medical content",
+        "Educational and academic videos",
+        "Real estate and architecture",
+        "Food and culinary content",
+        "Fashion and beauty industry",
+        "Technology and software demos",
+        "Automotive and transportation",
+        "Financial services content"
+      ],
+      "timestamp": "2025-08-31T00:46:00Z"
+    }
+  },
+  "implementation_priority": [
+    "character_development - High impact for storytelling",
+    "platform_optimization - High demand feature",
+    "brand_compliance - Enterprise necessity",
+    "industry_specific - Market expansion",
+    "narrative_structures - Creative enhancement",
+    "accessibility_features - Social responsibility"
+  ]
+}
